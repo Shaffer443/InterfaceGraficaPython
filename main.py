@@ -1,6 +1,34 @@
 from tkinter import *
+import datetime
+from datetime import date
+
+today = date.today()
 
 janela=Tk()
+
+def infoDataHora():
+    dt = datetime.datetime.now()
+    go = dt.strftime("%A %d. %B %Y - %I:%M")
+    return go
+
+def impDados():
+    print("%s"%casanome.get() + " x "+ "%s\n"%visitantenome.get())
+    print(f"Operação 1: %s"%primeira.get())
+    print(f"Operação 2: %s"%segunda.get())
+    print(f"Operação 3: %s"%terceira.get())
+
+
+def salvar():
+    arquivo=open(f"{today}.txt","a+")
+    #arquivo.write(f"{today}\n\n")
+    arquivo.write("%s"%casanome.get() + " x "+ "%s\n"%visitantenome.get())
+    arquivo.write("Operação 1: %s\n"%primeira.get())
+    arquivo.write("Operação 2: %s\n"%segunda.get())
+    arquivo.write("Operação 3: %s\n"%terceira.get())
+    arquivo.write("\n\n")
+    arquivo.close()
+
+
 
 #configurações de ambiente:
 
@@ -15,6 +43,9 @@ nome.place(x=10, y=10, width=270, height=30)
 
 nome=Label(janela,text="Versão beta",background="#000", foreground="#fff")
 nome.place(x=960, y=10, width=100, height=30)
+
+info=Label(janela,text= f"{infoDataHora()}",background="#000", foreground="#fff")
+info.place(x=450, y=10, width=300, height=30)
 
 #definindo valores e blocos
 
@@ -43,4 +74,12 @@ segunda.place(x=200,y=278, width=600, height=25)
 terceira=Entry(janela)
 terceira.place(x=200,y=306, width=600, height=25)
 
-janela.mainloop() #executa o programa
+#Botão
+
+btn=Button(janela,text="Imprimir", command=impDados)
+btn.place(x=400, y=350, width=80, height=25)
+
+save=Button(janela,text="Salvar", command=salvar)
+save.place(x=500, y=350, width=80, height=25)
+
+janela.mainloop()

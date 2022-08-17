@@ -2,6 +2,10 @@ Documentação: https://docs.python.org/3.9/library/tkinter.html#a-simple-hello-
 
 from tkinter import * - importação de tudo.
 
+janela.title("Shaffer Programas") # titulo na janela do programa
+janela.geometry("1080x720") #tamanho da janela
+janela.configure(background="#008") # cor de fundo em RGB
+
 _variável_**.place** - Configuração de posição para que o Label funcione. Precisa-se dizer 
 onde vai aparecer na tela.
 
@@ -17,9 +21,9 @@ O uso do expand é opcional. nâo usando, ele ficará em um tamanho fixo.
 esquerda e direita (interno?)
 
 **fill=x | fill=y** - Usado para expadir, através do código expend = True | False. O valor do fill
-X ou Y, indicará se a expansão será no vetor Y ou vetor Y.
+X ou Y, indicará se a expansão será no vetor Y ouButton(janela,text="Imprimir", command=impDados) vetor Y.
 
-**side** (left, right, buttom, top) - posicionamento.
+**side** (left, right, bottom, top) - posicionamento.
 
 **anchor**(Âncora) - N | S | W | E (norte - sul - oeste - leste). nordeste(NE),suldeeste(SE) e outros
 também funcionam.
@@ -27,8 +31,34 @@ também funcionam.
 **entry**- Usado para inserir texte e indicacar o seu master (pai), no exemplo é a variável _janela_,
 que é a master(pai)
 - Entry(janela)
+Quando precisamos pegar os dados de um Text(), precisamos informar onde começa e onde termina 
+o que desejamos pegar.
 
+_Exemplo:_
+
+- print("%s"%timecasa.get("1.0",END))
+
+Traduzindo, estamos informando que queremos pegar da primeira linha até o final.
 
 **text** - Um componente de texto multilinhas. Com mais de uma linha. Textos grandes.
 - Text(janela)
+
+
+**Inserindo Botões:**
+
+Insere um botão que pdoemso concetar com uma função, para que seja conectada quando clicarmos.
+
+sintaxe:
+
+- Button(_master(pai)_,text="nome impresso no botão", command=_nome da função que queremo conectar_)
+
+Exemplo:
+
+btn=<mark>Button(janela,text="Imprimir", command=impDados)</mark><br>
+btn.place(x=450, y=350, width=80, height=25)
+
+
+
+
+
 
