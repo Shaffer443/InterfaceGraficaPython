@@ -36,6 +36,12 @@ janela.title("Shaffer Programas") # titulo na janela do programa
 janela.geometry("1080x720") #tamanho da janela
 janela.configure(background="#008") # cor de fundo em RGB
 
+
+#rodapé:
+
+autor=Label(janela,text="Criado por:Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
+autor.place(x=300, y=690, width=500, height=30)
+
 #conteudo:
 
 nome=Label(janela,text="Primeira Interface Gráfica com Python",background="#fff",)
