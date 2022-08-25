@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d5670e-3887-47ea-b825-e68dd839746c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/save/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/.idea/Interfacesgraficaspython.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/main.py" beforeDir="false" />
-    </list>
+    <list default="true" id="b7d5670e-3887-47ea-b825-e68dd839746c" name="Changes" comment="Melhorias  na pasta SAVE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +33,28 @@
       <option name="presentableId" value="Default" />
       <updated>1661448280077</updated>
     </task>
+    <task id="LOCAL-00001" summary="Melhorias para salvamento na pasta SAVE">
+      <created>1661470223268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661470223268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Melhorias para salvamento na pasta SAVE">
+      <created>1661470270538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661470270538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Melhorias  na pasta SAVE">
+      <created>1661470593338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661470593338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +67,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Melhorias para salvamento na pasta SAVE" />
+    <MESSAGE value="Melhorias  na pasta SAVE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhorias  na pasta SAVE" />
   </component>
 </project>
