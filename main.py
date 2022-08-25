@@ -46,7 +46,7 @@ def salvar():
             if file.endswith('.txt'):
                 new_path = shutil.move(f"{atual}/{file}", destino)
 
-#preciso fazer com que o laço FOR verifique e passe para a pasta SAVE apenas os artquivos com final.txt
+#Melhorar o salvamento quando se tem dios arquivos com o mesmo nome na pasta SAVE
 
             try:
 
