@@ -1,0 +1,6 @@
+inter x sport
+Operação 1: casa ganha
+Operação 2: empate
+Operação 3: over 1,5
+
+
