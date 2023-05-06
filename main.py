@@ -13,10 +13,9 @@ def infoDataHora():
 
 def impDados():
     print("%s"%casanome.get() + " x "+ "%s\n"%visitantenome.get())
-    print(f"Operação 1: %s"%primeira.get())
-    print(f"Operação 2: %s"%segunda.get())
-    print(f"Operação 3: %s"%terceira.get())
-
+    #print(f"Operação 1: %s"%primeira.get())
+    #print(f"Operação 2: %s"%segunda.get())
+    #print(f"Operação 3: %s"%terceira.get())
 
 def salvar():
     arquivo=open(f"{today}.txt","a+")
@@ -24,9 +23,17 @@ def salvar():
     arquivo.write("Data: %s\n" %today)
     arquivo.write(f"Torneio: %s\n" %torneio.get())
     arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get())
-    arquivo.write("Operação 1: %s\n"%mercado.get())
-    arquivo.write("Operação 2: %s\n"%oddsEntrada.get())
-    arquivo.write("Operação 3: %s\n"%minEntrada.get())
+    arquivo.write("Operação: %s\n"%mercado.get())
+    arquivo.write("Odds de Entrada: %s\n"%oddsEntrada.get())
+    arquivo.write("Minuto da Entrada: %s\n"%minEntrada.get())
+    arquivo.write("Odds de Saída: %s\n" %oddsSaida.get())
+    arquivo.write("Minuto de Saída: %s\n" %minSaida.get())
+    arquivo.write("Gols Mandante 1 tempo: %s\n" %golsMandante.get())
+    arquivo.write("Gols Visitante 1 tempo: %s\n" % golsVisitante.get())
+    arquivo.write("Gols Mandante 2 tempo: %s\n" % golsMandanteSegundo.get())
+    arquivo.write("Gols Visitante 2 tempo: %s\n" % golsVisitanteSegundo.get())
+    arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
+    arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
     arquivo.write("\n\n")
     arquivo.close()
 

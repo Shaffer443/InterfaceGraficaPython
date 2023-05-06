@@ -14,3 +14,11 @@ Operação 2: 1.89
 Operação 3: 35
 
 
+Data: 2023-05-03
+Torneio: CONMEBOL Libertadores
+Internacional x Nacional(Uru)
+Operação 1: Back Mandante
+Operação 2: 1.96
+Operação 3: 61
+
+
