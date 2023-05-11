@@ -1,8 +1,12 @@
 from tkinter import *
 import datetime
 from datetime import date
+import os
+import os.path
+
 
 today = date.today()
+os.chdir("Entradas")
 
 janela=Tk()
 
@@ -11,32 +15,83 @@ def infoDataHora():
     go = dt.strftime("%A %d. %B %Y - %H:%M")
     return go
 
-def impDados():
-    print("%s"%casanome.get() + " x "+ "%s\n"%visitantenome.get())
+def criarPasta():
+    if os.path.exists(f"{today}"):
+        #print("\n\nDiretórios já existente. Não foi criado")
+
+        return salvar()
+    else:
+        os.mkdir(f"{today}")
+        salvar()
+
+def limpar():
+    emBranco = ''
+    print("%s"%emBranco + " x "+ "%s\n"%emBranco.get())
     #print(f"Operação 1: %s"%primeira.get())
     #print(f"Operação 2: %s"%segunda.get())
     #print(f"Operação 3: %s"%terceira.get())
 
 def salvar():
-    arquivo=open(f"{today}.txt","a+")
-    #arquivo.write(f"{today}\n\n")
-    arquivo.write("Data: %s\n" %today)
-    arquivo.write(f"Torneio: %s\n" %torneio.get())
-    arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get())
-    arquivo.write("Operação: %s\n"%mercado.get())
-    arquivo.write("Odds de Entrada: %s\n"%oddsEntrada.get())
-    arquivo.write("Minuto da Entrada: %s\n"%minEntrada.get())
-    arquivo.write("Odds de Saída: %s\n" %oddsSaida.get())
-    arquivo.write("Minuto de Saída: %s\n" %minSaida.get())
-    arquivo.write("Gols Mandante 1 tempo: %s\n" %golsMandante.get())
-    arquivo.write("Gols Visitante 1 tempo: %s\n" % golsVisitante.get())
-    arquivo.write("Gols Mandante 2 tempo: %s\n" % golsMandanteSegundo.get())
-    arquivo.write("Gols Visitante 2 tempo: %s\n" % golsVisitanteSegundo.get())
-    arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
-    arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
-    arquivo.write("\n\n")
-    arquivo.close()
 
+        if os.path.exists(f"{today}"):
+            try:
+                os.chdir(f"{today}")
+                arquivo=open(f"{today}.txt","a+")
+                #arquivo.write(f"{today}\n\n")
+                arquivo.write("\nData: %s\n" %today)
+                arquivo.write(f"Torneio: %s\n" %torneio.get())
+                arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get())
+                arquivo.write("Operação: %s\n"%mercado.get())
+                arquivo.write("Odds de Entrada: %s\n"%oddsEntrada.get())
+                arquivo.write("Minuto da Entrada: %s\n"%minEntrada.get())
+                arquivo.write("Odds de Saída: %s\n" %oddsSaida.get())
+                arquivo.write("Minuto de Saída: %s\n" %minSaida.get())
+                arquivo.write("Gols Mandante 1 tempo: %s\n" %golsMandante.get())
+                arquivo.write("Gols Visitante 1 tempo: %s\n" % golsVisitante.get())
+                arquivo.write("Gols Mandante 2 tempo: %s\n" % golsMandanteSegundo.get())
+                arquivo.write("Gols Visitante 2 tempo: %s\n" % golsVisitanteSegundo.get())
+                arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
+                arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
+                arquivo.write("\n\n")
+                arquivo.close()
+
+                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=500, y=620, width=150,height=25)
+                return res
+
+            except:
+                erro = Label(janela, text="Erros no Salvamento", bg="#008", foreground="#FF0000", anchor=W).place(x=500, y=620, width=150,height=25)
+                return erro
+
+        else:
+            try:
+                os.mkdir(f"{today}")
+                os.chdir(f"{today}")
+                arquivo = open(f"{today}.txt", "a+")
+                # arquivo.write(f"{today}\n\n")
+                arquivo.write("\nData: %s\n" % today)
+                arquivo.write(f"Torneio: %s\n" % torneio.get())
+                arquivo.write("%s" % casanome.get() + " x " + "%s\n" % visitantenome.get())
+                arquivo.write("Operação: %s\n" % mercado.get())
+                arquivo.write("Odds de Entrada: %s\n" % oddsEntrada.get())
+                arquivo.write("Minuto da Entrada: %s\n" % minEntrada.get())
+                arquivo.write("Odds de Saída: %s\n" % oddsSaida.get())
+                arquivo.write("Minuto de Saída: %s\n" % minSaida.get())
+                arquivo.write("Gols Mandante 1 tempo: %s\n" % golsMandante.get())
+                arquivo.write("Gols Visitante 1 tempo: %s\n" % golsVisitante.get())
+                arquivo.write("Gols Mandante 2 tempo: %s\n" % golsMandanteSegundo.get())
+                arquivo.write("Gols Visitante 2 tempo: %s\n" % golsVisitanteSegundo.get())
+                arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
+                arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
+                arquivo.write("\n\n")
+
+                arquivo.close()
+
+                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=500, y=620,width=150,height=25)
+                return res
+
+            except:
+                erro = Label(janela, text="Erros no Salvamento", bg="#008", foreground="#FF0000", anchor=W).place(x=500, y=620,width=150,height=25)
+                return erro
 
 
 #configurações de ambiente:
@@ -48,10 +103,10 @@ janela.configure(background="#008") # cor de fundo em RGB
 
 #rodapé:
 
-autor=Label(janela,text="Criado por:Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
+autor=Label(janela,text="Criado por: Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
 autor.place(x=250, y=690, width=500, height=30)
 
-ultimaAtualizacao=Label(janela,text=f"Última Atualização: {today}",background="#006",foreground="#fff")
+ultimaAtualizacao=Label(janela,text=f"Última Atualização: 2023-05-09",background="#006",foreground="#fff")
 ultimaAtualizacao.place(x=800, y=690, width=250, height=30)
 
 #conteudo:
@@ -159,10 +214,10 @@ resultadoOperacao.place(x=820,y=580, width=80, height=25)
 
 #Botão
 
-btn=Button(janela,text="Imprimir", command=impDados)
+btn=Button(janela,text="Apagar", command=limpar)
 btn.place(x=470, y=650, width=80, height=25)
 
-save=Button(janela,text="Salvar", command=salvar)
+save=Button(janela,text="Salvar", command=criarPasta)
 save.place(x=570, y=650, width=80, height=25)
 
 janela.mainloop()

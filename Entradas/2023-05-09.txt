@@ -1,0 +1,34 @@
+
+Data: 2023-05-09
+Torneio: teste
+teste x teste
+Operação: teste
+Odds de Entrada: 
+Minuto da Entrada: 
+Odds de Saída: 
+Minuto de Saída: 
+Gols Mandante 1 tempo: 
+Gols Visitante 1 tempo: 
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): 
+
+
+
+Data: 2023-05-09
+Torneio: teste
+teste x teste
+Operação: teste
+Odds de Entrada: 
+Minuto da Entrada: 
+Odds de Saída: 
+Minuto de Saída: 
+Gols Mandante 1 tempo: 
+Gols Visitante 1 tempo: 
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): 
+
+

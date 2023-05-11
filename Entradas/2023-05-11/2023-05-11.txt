@@ -1,0 +1,73 @@
+
+Data: 2023-05-11
+Torneio: UEFA Liga Europa
+Juventus  x Sevilla
+Operação: Over 1.5
+Odds de Entrada: 20
+Minuto da Entrada: 1.63
+Odds de Saída: 26
+Minuto de Saída: 1.16
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.37
+
+insert into input values(default,'2023-05-11','UEFA Liga Europa','Juventus','Sevilla','Over 1,5',1.63,20,1.16,26,1,0,0,1,default,'Green',0.37,default);
+
+
+
+Data: 2023-05-11
+Torneio: UEFA Europa Conference League
+West Ham x Az Alkmaar
+Operação: Over 1.5
+Odds de Entrada: 28
+Minuto da Entrada: 1.78
+Odds de Saída: 41
+Minuto de Saída: 1.25
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.37
+
+insert into input values(default,'2023-05-11','UEFA Europa Conference League','West Ham','Az Alkmaar','Over 1,5',1.78,28,1.25,41,0,1,2,0,default,'Green',0.37,default);
+
+
+Data: 2023-05-11
+Torneio: UEFA Liga Europa
+Roma x  Leverkusen
+Operação: Over 1.5
+Odds de Entrada: 24
+Minuto da Entrada: 1.90
+Odds de Saída: 48
+Minuto de Saída: 3.15
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.40
+
+insert into input values(default,'2023-05-11','UEFA Liga Europa','Roma','Leverkusen','Over 1,5',1.90,24,3.15,48,0,0,1,0,default,'Red',-0.40,default);
+
+Data: 2023-05-11
+Torneio: UEFA Liga Europa
+Roma x Leverkusen
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.53
+Minuto da Entrada: 50
+Odds de Saída: 1.00
+Minuto de Saída: 63
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.50
+
+insert into input values(default,'2023-05-11','UEFA Liga Europa','Roma','Leverkusen','Over 0,5 no 2º tempo',1.53,50,1.00,63,0,0,1,0,default,'Green',0.50,default);
+
+

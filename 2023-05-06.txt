@@ -1,0 +1,70 @@
+Data: 2023-05-06
+Torneio: Bundesliga Alemã
+Werder Bremen  x  Bayern de Munique
+Operação: Over 1,5
+Odds de Entrada: 1.40
+Minuto da Entrada: 40
+Odds de Saída: 1.52
+Minuto de Saída: 47
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.10
+
+insert into input values(default,'2023-05-06','Bundesliga Alemã','Werder Bremen','Bayern de Munique','Over 1,5',1.40,40, 1.52,47,0,0,1,2,default,'Red',-0.10,default);
+
+
+Data: 2023-05-06
+Torneio: Holanda - Eredivisie
+Sparta Rotterdam x PSV
+Operação: Over 1,5
+Odds de Entrada: 1.74
+Minuto da Entrada: 44
+Odds de Saída: 3.25i
+Minuto de Saída: 63
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.45 
+
+insert into input values(default,'2023-05-06','Holanda - Eredivisie','Sparta Rotterdam','PSV','Over 1,5',1.74,44,3.25,63,0,0,0,1,default,'Red',-0.45,default);
+
+
+Data: 2023-05-06
+Torneio: Holanda - Eredivisie
+Ajax x Az Alkmaar
+Operação: Over 1,5
+Odds de Entrada: 1.59
+Minuto da Entrada: 34
+Odds de Saída: 1.95		
+Minuto de Saída: 47
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.20
+
+insert into input values(default,'2023-05-06','Holanda - Eredivisie','Ajax','Az Alkmaar','Over 1,5',1.59,34,1.95,47,0,0,0,0,default,'Red',-0.20,default);
+
+Data: 2023-05-06
+Torneio: Portugal- Primeira Liga
+Benfica x  Braga
+Operação: Back Mandante
+Odds de Entrada: 1.50
+Minuto da Entrada: 29
+Odds de Saída: 1.76
+Minuto de Saída: 47
+Gols Mandante 1 tempo: 0 
+Gols Visitante 1 tempo: 0 
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+insert into input values(default,'2023-05-06','Portugal- Primeira Liga','Benfica','Braga','Back Mandante',1.50,29,1.76,47,0,0,1,0,default,'Red',-0.16,default);
+

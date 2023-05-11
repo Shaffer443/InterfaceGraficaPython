@@ -1,0 +1,18 @@
+
+Data: 2023-05-09
+Torneio: UEFA Champions League
+Real Madrid x Manchester City
+Operação: Back Visitante
+Odds de Entrada: 1.58
+Minuto da Entrada: 31
+Odds de Saída: 2.46			
+Minuto de Saída: 33
+Gols Mandante 1 tempo: 1 
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.25 
+
+insert into input values(default,'2023-05-09','UEFA Champions League','Real Madrid','Manchester City','Back Visitante',1.98,14,2.46,28,0,1,0,1,default,'Red',-0.25,default);
+
