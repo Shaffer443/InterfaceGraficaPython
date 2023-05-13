@@ -3,6 +3,7 @@ import datetime
 from datetime import date
 import os
 import os.path
+import funcao
 
 
 today = date.today()
@@ -53,6 +54,8 @@ def salvar():
                 arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
+                #arquivo.write(f'insert into input values(default,\'{today}\',\'{torneio.get()}\',{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n')
+                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(today,torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
                 arquivo.close()
 
                 res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=500, y=620, width=150,height=25)
@@ -83,6 +86,8 @@ def salvar():
                 arquivo.write("Valor da Operação (R$ ou $): %s\n" % valorEntrada.get())
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
+                #arquivo.write(f"insert into input values(default,{today},{torneio.get()},{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n")
+                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(today,torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
 
                 arquivo.close()
 
