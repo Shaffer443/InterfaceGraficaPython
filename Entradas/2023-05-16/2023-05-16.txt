@@ -1,0 +1,62 @@
+
+Data: 2023-05-16
+Torneio: UEFA Champions League
+Inter de Milão x Milan
+Operação: Over 1,5
+Odds de Entrada: 1.77
+Minuto da Entrada: 32
+Odds de Saída: 3.50
+Minuto de Saída: 61
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.50
+
+
+insert into input values(default, '2023-05-16', 'UEFA Champions League', 'Inter de Milão', 'Milan', 'Over 1,5', '1.77', '32', '3.50', '61', '0', '0', '1', '0', '1.00', 'Red', '-0.50', default);
+
+
+Data: 2023-05-16
+Torneio: Copa Do Brasil
+Fluminense x Flamengo
+Operação: Over 1,5
+Odds de Entrada: 1.66
+Minuto da Entrada: 28
+Odds de Saída: 2.42
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.31
+
+
+insert into input values(default, '2023-05-16', 'Copa Do Brasil', 'Fluminense', 'Flamengo', 'Over 1,5', '1.66', '28', '2.42', '45', '0', '0', '0', '0', '1.00', 'Red', '-0.31', default);
+
+
+Data: 2023-05-16
+Torneio: Copa Do Brasil
+Fluminense x Flamengo
+Operação: Back Visitante
+Odds de Entrada: 2.30
+Minuto da Entrada: 25
+Odds de Saída: 2.56
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.11
+
+
+insert into input values(default, '2023-05-16', 'Copa Do Brasil', 'Fluminense', 'Flamengo', 'Back Visitante', '2.30', '25', '2.56', '45', '0', '0', '0', '0', '1.00', 'Red', '-0.11', default);
+
+-----
+
+insert into input values(default, '2023-05-16', 'Copa Do Brasil', 'Fluminense', 'Flamengo', 'Over 1,5', '1.66', '28', '2.42', '45', '0', '0', '0', '0', '1.00', 'Red', '-0.31', default),(default, '2023-05-16', 'Copa Do Brasil', 'Fluminense', 'Flamengo', 'Back Visitante', '2.30', '25', '2.56', '45', '0', '0', '0', '0', '1.00', 'Red', '-0.11', default);
+
+

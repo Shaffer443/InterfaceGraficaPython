@@ -6,6 +6,8 @@ import os.path
 import funcao
 
 
+
+
 today = date.today()
 os.chdir("Entradas")
 
@@ -32,16 +34,20 @@ def limpar():
     #print(f"Operação 2: %s"%segunda.get())
     #print(f"Operação 3: %s"%terceira.get())
 
+def fechandoTela(janela, tempo):
+        janela.after(tempo * 1000, lambda: janela.destroy())
+
 def salvar():
 
         if os.path.exists(f"{today}"):
             try:
                 os.chdir(f"{today}")
-                arquivo=open(f"{today}.txt","a+")
+                # arquivo=open(f"{today}.txt","a+")
+                arquivo = open("%s"%casanome.get()+"x"+"%s"%visitantenome.get()+".txt", "a+") #implementação
                 #arquivo.write(f"{today}\n\n")
                 arquivo.write("\nData: %s\n" %today)
                 arquivo.write(f"Torneio: %s\n" %torneio.get())
-                arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get())
+                arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get()) #pode ser desnecessário
                 arquivo.write("Operação: %s\n"%mercado.get())
                 arquivo.write("Odds de Entrada: %s\n"%oddsEntrada.get())
                 arquivo.write("Minuto da Entrada: %s\n"%minEntrada.get())
@@ -55,13 +61,18 @@ def salvar():
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
                 #arquivo.write(f'insert into input values(default,\'{today}\',\'{torneio.get()}\',{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n')
-                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(today,torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
+                arquivo.write("%s\n\n"%funcao.criacaoScriptMysql(torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
                 arquivo.close()
 
-                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=500, y=620, width=150,height=25)
-                return res
+                # info na janela
+                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=450, y=620, width=150,height=25)
+                contagemDeTempo = Label(janela, text="Fechando Janela em 5 segundos", bg="#008", foreground="#00FF00",
+                                        anchor=W).place(x=600, y=620, width=150, height=25)
+                return res, contagemDeTempo, fechandoTela(janela,5)
+
 
             except:
+                # info na janela
                 erro = Label(janela, text="Erros no Salvamento", bg="#008", foreground="#FF0000", anchor=W).place(x=500, y=620, width=150,height=25)
                 return erro
 
@@ -69,7 +80,9 @@ def salvar():
             try:
                 os.mkdir(f"{today}")
                 os.chdir(f"{today}")
-                arquivo = open(f"{today}.txt", "a+")
+                #arquivo = open(f"{today}.txt", "a+")
+                #arquivo = open(f"{casanome.get()}x{visitantenome.get()}.txt", "a+")  # implementação
+                arquivo = open("%s" % casanome.get() + "x" + "%s" % visitantenome.get() + ".txt", "a+")  # implementação
                 # arquivo.write(f"{today}\n\n")
                 arquivo.write("\nData: %s\n" % today)
                 arquivo.write(f"Torneio: %s\n" % torneio.get())
@@ -87,14 +100,18 @@ def salvar():
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
                 #arquivo.write(f"insert into input values(default,{today},{torneio.get()},{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n")
-                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(today,torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
+                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
 
                 arquivo.close()
 
-                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=500, y=620,width=150,height=25)
-                return res
+                # info na janela
+                res = Label(janela, text="Salvo Com Sucesso!", bg="#008", foreground="#00FF00", anchor=W).place(x=450, y=620,width=150,height=25)
+                contagemDeTempo = Label(janela, text="Fechando Janela em 5 segundos", bg="#008", foreground="#00FF00", anchor=W).place(x=600,y=620,width=150,height=25)
+                return res, contagemDeTempo, fechandoTela(janela,5)
+
 
             except:
+                # info na janela
                 erro = Label(janela, text="Erros no Salvamento", bg="#008", foreground="#FF0000", anchor=W).place(x=500, y=620,width=150,height=25)
                 return erro
 
@@ -111,7 +128,7 @@ janela.configure(background="#008") # cor de fundo em RGB
 autor=Label(janela,text="Criado por: Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
 autor.place(x=250, y=690, width=500, height=30)
 
-ultimaAtualizacao=Label(janela,text=f"Última Atualização: 2023-05-09",background="#006",foreground="#fff")
+ultimaAtualizacao=Label(janela,text=f"Última Atualização: 2023-05-20",background="#006",foreground="#fff")
 ultimaAtualizacao.place(x=800, y=690, width=250, height=30)
 
 #conteudo:

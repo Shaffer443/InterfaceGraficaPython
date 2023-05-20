@@ -1,0 +1,19 @@
+
+Data: 2023-05-13
+Torneio: Itália Série A
+Spezia x Milan
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.38
+Minuto da Entrada: 50
+Odds de Saída: 1.77
+Minuto de Saída: 62
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.21
+
+
+['insert into input values(default', datetime.date(2023, 5, 13), 'Itália Série A', 'Spezia', 'Milan', 'Over 0,5 no 2º tempo', '1.38', '50', '1.77', '62', '0', '0', '2', '0', '1.00', 'Red', '-0.21', 'default);']
+
