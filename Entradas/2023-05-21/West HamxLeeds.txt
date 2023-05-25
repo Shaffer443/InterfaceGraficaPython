@@ -1,0 +1,19 @@
+
+Data: 2023-05-21
+Torneio: Inglaterra Premier League
+West Ham x Leeds
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.44
+Minuto da Entrada: 59
+Odds de Saída: 1.00
+Minuto de Saída: 71
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.41
+
+
+['insert into input values(default', '2023-05-21', 'Inglaterra Premier League', 'West Ham', 'Leeds', 'Over 0,5 no 2º tempo', '1.44', '59', '1.00', '71', '1', '1', '2', '0', '1.00', 'Green', '0.41', 'default);']
+

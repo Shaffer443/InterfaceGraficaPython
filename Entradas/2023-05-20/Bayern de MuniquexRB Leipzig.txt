@@ -1,0 +1,19 @@
+
+Data: 2023-05-20
+Torneio: Bundesliga Alemã
+Bayern de Munique x RB Leipzig
+Operação: Back Mandante
+Odds de Entrada: 1.63
+Minuto da Entrada: 21
+Odds de Saída: 1.23
+Minuto de Saída: 24
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.30
+
+
+['insert into input values(default', '2023-05-20', 'Bundesliga Alemã', 'Bayern de Munique', 'RB Leipzig', 'Back Mandante', '1.63', '21', '1.23', '24', '1', '0', '', '', '1.00', 'Green', '0.30', 'default);']
+

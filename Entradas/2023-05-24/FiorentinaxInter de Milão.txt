@@ -1,0 +1,19 @@
+
+Data: 2023-05-24
+Torneio: Copa da Itália
+Fiorentina x Inter de Milão
+Operação: Back Visitante
+Odds de Entrada: 2.28
+Minuto da Entrada: 32
+Odds de Saída: 1.40
+Minuto de Saída: 36
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.58
+
+
+['insert into input values(default', '2023-05-24', 'Copa da Itália', 'Fiorentina', 'Inter de Milão', 'Back Visitante', '2.28', '32', '1.40', '36', '1', '2', '0', '0', '1.00', 'Green', '0.58', 'default);']
+

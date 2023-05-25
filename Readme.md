@@ -1,3 +1,11 @@
+**Bibliotecas e Frameworks**
+
+- pip install mysql-connector-python 
+        (https://www.w3schools.com/python/python_mysql_getstarted.asp,
+         https://dev.mysql.com/doc/connector-python/en/connector-python-installation-binary.html,
+         https://pypi.org/project/mysql-connector-python/)
+
+
 Documentação: https://docs.python.org/3.9/library/tkinter.html#a-simple-hello-world-program
 
 from tkinter import * - importação de tudo.
