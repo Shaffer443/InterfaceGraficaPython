@@ -46,7 +46,6 @@ def totalRegsitros():
         myresult = cursor.fetchone()
         print(f"Total de REGISTROS(tuplas): {int(myresult[0])}")
 
-
         cursor.close()
         cnx.close()
 
@@ -58,11 +57,11 @@ def totalRegsitrosGreen():
         # myresult = cursor.fetchall()
         myresult = cursor.fetchone()
         print(f"Total de REGISTROS(tuplas) de GREEN: {int(myresult[0])}")
-
-
+        # return print(f"Total de REGISTROS(tuplas) de GREEN: {int(myresult[0])}")
         cursor.close()
         cnx.close()
-def totalRegsitrosGreen():
+
+def totalRegsitrosRed():
     if cnx.is_connected():
         cursor = cnx.cursor()
         todosOsDados = "SELECT count(*) FROM input where resultado='Red'"
@@ -70,38 +69,75 @@ def totalRegsitrosGreen():
         # myresult = cursor.fetchall()
         myresult = cursor.fetchone()
         print(f"Total de REGISTROS(tuplas) de RED: {int(myresult[0])}")
-
-
         cursor.close()
         cnx.close()
+
+def mediaRetornoOperacao():
+    if cnx.is_connected():
+        cursor = cnx.cursor()
+        todosOsDados = "SELECT avg(valorDaOperacao) FROM input"
+        cursor.execute(todosOsDados)
+        myresult = cursor.fetchone()
+        res = myresult[0]
+        # print(type(res))
+        print(f"Média de Retorno Operacional R$ ", end="")
+        print(float(f"{res:.2f}"))
+        # return print(f"Total de REGISTROS(tuplas) de GREEN: {int(myresult[0])}")
+        cursor.close()
+        cnx.close()
+
+# Funções de validação:
+
+def validaOpcao(numeroEscolhido):
+    procurando = numeroEscolhido
+    opcoes = (1,2,3,4,5)
+    for busca in opcoes:
+        if busca == procurando:
+            # print(f"Elemento {procurando} está na TUPLA ")
+            numero = procurando
+            return numero
+            # break
+        # else:
+        #     return False
 
 
 # Chamada das funções:
 
-while True:
-    print("\n")
-    escolha = int(input("""O que deseja analisar:
-                            1 - Mostrar Todas as Informações da tabela INPUT
-                            2 - Mostrar o total de registro na tabela INPUT
-                            3 - Mostrar Quantidade de Green's
-                            4 - Mostrar Quanitdades de Red's
-                            Fechar Sistema - sair | 0 | exit\n
-                            """))
-    if escolha == 1:
-        mostrarTudo()
-    if escolha == 2:
-        totalRegsitros()
-    if escolha == 3:
-        totalRegsitrosGreen()
-    if escolha == 4:
-        totalRegsitrosGreen()
-    else:
-        if escolha == 0:
-            print("Saindo do Sistema...\nBye")
-            break
-        else:
-            print("Número digitado inválido ou fora dos padrões")
-            continue
+# escolha = ''
+
+
+print("\n")
+print("""O que deseja analisar:
+
+    1 - Mostrar Todas as Informações da tabela INPUT
+    2 - Mostrar o total de registro na tabela INPUT
+    3 - Mostrar Quantidade de Green's
+    4 - Mostrar Quanitdades de Red's
+    5 - Média de Ganhos Operacionais
+    Fechar Sistema - 0 (zero) \n    """)
+
+escolha = int(input(">>> "))
+
+# for busca in opcoes:
+
+if validaOpcao(escolha) == 1:
+    mostrarTudo()
+if validaOpcao(escolha) == 2:
+    totalRegsitros()
+if validaOpcao(escolha) == 3:
+    totalRegsitrosGreen()
+if validaOpcao(escolha) == 4:
+    totalRegsitrosRed()
+if validaOpcao(escolha) == 5:
+    mediaRetornoOperacao()
+else:
+    if validaOpcao(escolha) != escolha:
+        print("Número digitado inválido ou fora dos padrões")
+
 
 # mostrarTudo()
 # totalRegsitros()
+# totalRegsitrosGreen()
+# totalRegsitrosRed()
+# escolha = int(input())
+# validaOpcao(escolha)
