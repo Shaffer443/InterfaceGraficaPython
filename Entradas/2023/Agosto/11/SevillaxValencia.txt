@@ -1,0 +1,19 @@
+
+Data: 2023-08-11
+Torneio: Espanha La Liga
+Sevilla x Valencia
+Operação: Over 0,5 no 2 tempos
+Odds de Entrada: 1.61
+Minuto da Entrada: 55
+Odds de Saída: 1.00
+Minuto de Saída: 60
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.56
+
+
+insert into input values(default, '2023-08-11', 'Espanha La Liga','Sevilla','Valencia','Over 0,5 no 2º tempo',1.61,55,1.00,60,0,0,1,2,1.00,'Green',0.56,default); - ok
+

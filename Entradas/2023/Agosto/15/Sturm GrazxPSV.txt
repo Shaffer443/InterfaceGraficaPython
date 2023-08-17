@@ -1,0 +1,18 @@
+
+Data: 2023-08-15
+Torneio: UEFA Liga dos Campeões Eliminatórias
+Sturm Graz x PSV
+Operação: Back Visitantes
+Odds de Entrada: 2.08
+Minuto da Entrada: 8
+Odds de Saída: 4.50
+Minuto de Saída: 26
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.57
+
+
+insert into input values(default, '2023-08-15', 'UEFA Liga dos Campeões Eliminatórias','Sturm Graz','PSV','Back Visitantes',2.08,8,4.50,26,1,2,0,1,1.00,'Red',-0.57,default);

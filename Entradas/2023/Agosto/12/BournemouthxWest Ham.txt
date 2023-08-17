@@ -1,0 +1,18 @@
+
+Data: 2023-08-12
+Torneio: Inglaterra Premier League
+Bournemouth x West Ham
+Operação: Back Mandante
+Odds de Entrada: 2.68
+Minuto da Entrada: 31
+Odds de Saída: 1.49
+Minuto de Saída: 51
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.72
+
+
+insert into input values(default, '2023-08-12', 'Inglaterra Premier League','Bournemouth','West Ham','Back Mandante',2.68,31,1.49,51,0,0,1,1,1.00,'Green',0.72,default);

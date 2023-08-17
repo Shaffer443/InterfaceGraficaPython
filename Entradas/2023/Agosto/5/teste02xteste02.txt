@@ -1,0 +1,18 @@
+
+Data: 2023-08-05
+Torneio: teste02
+teste02 x teste02
+Operação: teste02
+Odds de Entrada: 2.00
+Minuto da Entrada: 20
+Odds de Saída: 2.10
+Minuto de Saída: 30
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): -0.40
+
+
+insert into input values(default, '2023-08-05', 'teste02','teste02','teste02','teste02',2.00,20,2.10,30,1,1,2,2,1.0,'Red',-0.40,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-08-16
+Torneio: UEFA Supertaça
+Manchester City x Sevilla
+Operação: Back Mandante
+Odds de Entrada: 1.44
+Minuto da Entrada: 20
+Odds de Saída: 2.24
+Minuto de Saída: 25
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.37
+
+
+insert into input values(default, '2023-08-16', 'UEFA Supertaça','Manchester City','Sevilla','Back Mandante',1.44,20,2.24,25,0,1,1,0,1.00,'Red',-0.37,default);

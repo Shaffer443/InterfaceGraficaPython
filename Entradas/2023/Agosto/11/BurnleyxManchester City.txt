@@ -1,0 +1,18 @@
+
+Data: 2023-08-11
+Torneio: Inglaterra Premier League
+Burnley x Manchester City
+Operação: Back Visitante
+Odds de Entrada: 1.34
+Minuto da Entrada: 0
+Odds de Saída: 1.13
+Minuto de Saída: 4
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.17
+
+
+insert into input values(default, '2023-08-11', 'Inglaterra Premier League','Burnley','Manchester City','Back Visitante',1.34,0,1.13,4,0,1,0,2,1.00,'Green',0.17,default); - ok

@@ -1,0 +1,18 @@
+
+Data: 2023-08-08
+Torneio: Amistoso de Elite
+Barcelona x Tottenham
+Operação: Back Mandante
+Odds de Entrada: 1.91
+Minuto da Entrada: 32
+Odds de Saída: 3.75
+Minuto de Saída: 36
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): -0.49
+
+
+insert into input values(default, '2023-08-08', 'Amistoso de Elite','Barcelona','Tottenham','Back Mandante',1.91,32,3.75,36,1,2,3,0,1.0,'Red',-0.49,default); ok

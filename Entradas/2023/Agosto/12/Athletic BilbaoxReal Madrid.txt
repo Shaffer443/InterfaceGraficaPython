@@ -1,0 +1,18 @@
+
+Data: 2023-08-12
+Torneio: Espanha la Liga
+Athletic Bilbao x Real Madrid
+Operação: Back Visitante
+Odds de Entrada: 2.26
+Minuto da Entrada: 9
+Odds de Saída: 1.42
+Minuto de Saída: 28
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.55
+
+
+insert into input values(default, '2023-08-12', 'Espanha la Liga','Athletic Bilbao','Real Madrid','Back Visitante',2.26,9,1.42,28,0,2,0,0,1.00,'Green',0.55,default); - ok

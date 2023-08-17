@@ -4,12 +4,13 @@ from datetime import date
 import os
 import os.path
 import funcao
+import criacaoDiretorio
 
 
 
 
 today = date.today()
-os.chdir("Entradas")
+# os.chdir("Entradas") #diretorio da pasta PAI
 
 janela=Tk()
 
@@ -18,30 +19,36 @@ def infoDataHora():
     go = dt.strftime("%A %d. %B %Y - %H:%M")
     return go
 
-def criarPasta():
-    if os.path.exists(f"{today}"):
+# Ficou em desuso com nvoso arquivos .py para o diretório
+def verificandoDiretorios():
+    if criacaoDiretorio.statusDiretororio == True:
         #print("\n\nDiretórios já existente. Não foi criado")
-
         return salvar()
     else:
-        os.mkdir(f"{today}")
-        salvar()
+        print("Diretórios não encontrados.....")
+        print("Trabalhando na criação dos diretórios.....")
+        try:
+            os.mkdir(f"{criacaoDiretorio.pastaPrincipal()}")
+            if os.path.exists(f"{criacaoDiretorio.statusDiretororio}"):
+                return salvar()
+        except:
+            print("Falha na criação dos diretórios..... ERRO")
 
-def limpar():
-    emBranco = ''
-    print("%s"%emBranco + " x "+ "%s\n"%emBranco.get())
-    #print(f"Operação 1: %s"%primeira.get())
-    #print(f"Operação 2: %s"%segunda.get())
-    #print(f"Operação 3: %s"%terceira.get())
+# def limpar():
+#     emBranco = ''
+#     print("%s"%emBranco + " x "+ "%s\n"%emBranco.get())
+#     #print(f"Operação 1: %s"%primeira.get())
+#     #print(f"Operação 2: %s"%segunda.get())
+#     #print(f"Operação 3: %s"%terceira.get())
 
 def fechandoTela(janela, tempo):
         janela.after(tempo * 1000, lambda: janela.destroy())
 
 def salvar():
-
-        if os.path.exists(f"{today}"):
+        if os.path.exists(f"{criacaoDiretorio.pastaAno}/{criacaoDiretorio.pastaMes}/{criacaoDiretorio.pastaDia}") and criacaoDiretorio.statusDiretororio == True:
+            diretorioSalvamento = f"{criacaoDiretorio.pastaAno}/{criacaoDiretorio.pastaMes}/{criacaoDiretorio.pastaDia}"
             try:
-                os.chdir(f"{today}")
+                os.chdir(f"{diretorioSalvamento}")
                 # arquivo=open(f"{today}.txt","a+")
                 arquivo = open("%s"%casanome.get()+"x"+"%s"%visitantenome.get()+".txt", "a+") #implementação
                 #arquivo.write(f"{today}\n\n")
@@ -61,7 +68,21 @@ def salvar():
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
                 #arquivo.write(f'insert into input values(default,\'{today}\',\'{torneio.get()}\',{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n')
-                arquivo.write("%s\n\n"%funcao.criacaoScriptMysql(torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
+                arquivo.write(funcao.criacaoScriptMysql(torneio.get(),
+                                                                 casanome.get(),
+                                                                 visitantenome.get(),
+                                                                 mercado.get(),
+                                                                 oddsEntrada.get(),
+                                                                 minEntrada.get(),
+                                                                 oddsSaida.get(),
+                                                                 minSaida.get(),
+                                                                 golsMandante.get(),
+                                                                 golsVisitante.get(),
+                                                                 golsMandanteSegundo.get(),
+                                                                 golsVisitanteSegundo.get(),
+                                                                 valorEntrada.get(),
+                                                                 resultadoOperacao.get()))
+
                 arquivo.close()
 
                 # info na janela
@@ -78,8 +99,9 @@ def salvar():
 
         else:
             try:
-                os.mkdir(f"{today}")
-                os.chdir(f"{today}")
+                os.mkdir(f"{criacaoDiretorio.pastaPrincipal()}")
+                diretorioSalvamento = f"{criacaoDiretorio.pastaAno}/{criacaoDiretorio.pastaMes}/{criacaoDiretorio.pastaDia}"
+                os.chdir(f"{diretorioSalvamento}")
                 #arquivo = open(f"{today}.txt", "a+")
                 #arquivo = open(f"{casanome.get()}x{visitantenome.get()}.txt", "a+")  # implementação
                 arquivo = open("%s" % casanome.get() + "x" + "%s" % visitantenome.get() + ".txt", "a+")  # implementação
@@ -100,7 +122,21 @@ def salvar():
                 arquivo.write("Retorno da Operação (R$ ou $): %s\n" % resultadoOperacao.get())
                 arquivo.write("\n\n")
                 #arquivo.write(f"insert into input values(default,{today},{torneio.get()},{casanome.get()},{visitantenome.get()},{mercado.get()},{oddsEntrada.get()},{minEntrada.get()},{oddsSaida.get()},{minSaida.get()},{golsMandante.get()},{golsVisitante.get()},{golsMandanteSegundo.get()},{golsVisitanteSegundo.get()},{valorEntrada.get()},{funcao.scriptInputJogoRedGreen(resultadoOperacao.get())},{resultadoOperacao.get()},default);\n\n")
-                arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
+                # arquivo.write("%s\n\n" %funcao.criacaoScriptMysql(torneio.get(), casanome.get(), visitantenome.get(), mercado.get(), oddsEntrada.get(), minEntrada.get(),oddsSaida.get(), minSaida.get(), golsMandante.get(), golsVisitante.get(), golsMandanteSegundo.get(), golsVisitanteSegundo.get(),valorEntrada.get(), resultadoOperacao.get()))
+                arquivo.write(funcao.criacaoScriptMysql(torneio.get(),
+                                                        casanome.get(),
+                                                        visitantenome.get(),
+                                                        mercado.get(),
+                                                        oddsEntrada.get(),
+                                                        minEntrada.get(),
+                                                        oddsSaida.get(),
+                                                        minSaida.get(),
+                                                        golsMandante.get(),
+                                                        golsVisitante.get(),
+                                                        golsMandanteSegundo.get(),
+                                                        golsVisitanteSegundo.get(),
+                                                        valorEntrada.get(),
+                                                        resultadoOperacao.get()))
 
                 arquivo.close()
 
@@ -118,7 +154,7 @@ def salvar():
 
 #configurações de ambiente:
 
-janela.title("Shaffer Programas") # titulo na janela do programa
+janela.title("Shaffer Dev - Trader Esportivo (Futebol)") # titulo na janela do programa
 janela.geometry("1080x720") #tamanho da janela
 janela.configure(background="#008") # cor de fundo em RGB
 
@@ -128,16 +164,16 @@ janela.configure(background="#008") # cor de fundo em RGB
 autor=Label(janela,text="Criado por: Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
 autor.place(x=250, y=690, width=500, height=30)
 
-ultimaAtualizacao=Label(janela,text=f"Última Atualização: 2023-05-20",background="#006",foreground="#fff")
+ultimaAtualizacao=Label(janela,text=f"Última Atualização: 05/08/2023",background="#006",foreground="#fff")
 ultimaAtualizacao.place(x=800, y=690, width=250, height=30)
 
 #conteudo:
 
-nome=Label(janela,text="Primeira Interface Gráfica com Python",background="#fff",)
-nome.place(x=10, y=10, width=270, height=30)
+nome=Label(janela,text="Acompanhamento de Entradas Trader Esportivo",background="#fff",)
+nome.place(x=10, y=10, width=330, height=30)
 
-nome=Label(janela,text="Versão beta",background="#000", foreground="#fff")
-nome.place(x=960, y=10, width=100, height=30)
+nome=Label(janela,text="Versão beta 1.2",background="#000", foreground="#fff")
+nome.place(x=940, y=10, width=130, height=30)
 
 info=Label(janela,text= f"{infoDataHora()}",background="#000", foreground="#fff")
 info.place(x=450, y=10, width=300, height=30)
@@ -236,10 +272,10 @@ resultadoOperacao.place(x=820,y=580, width=80, height=25)
 
 #Botão
 
-btn=Button(janela,text="Apagar", command=limpar)
-btn.place(x=470, y=650, width=80, height=25)
+# btn=Button(janela,text="Apagar", command=limpar)
+# btn.place(x=470, y=650, width=80, height=25)
 
-save=Button(janela,text="Salvar", command=criarPasta)
+save=Button(janela,text="Salvar", command=verificandoDiretorios)
 save.place(x=570, y=650, width=80, height=25)
 
 janela.mainloop()

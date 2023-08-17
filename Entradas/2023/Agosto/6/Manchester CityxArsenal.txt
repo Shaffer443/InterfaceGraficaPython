@@ -1,0 +1,37 @@
+
+Data: 2023-08-06
+Torneio: Inglaterra Community Shield
+Manchester City x Arsenal
+Operação: Back Mandante
+Odds de Entrada: 2.22
+Minuto da Entrada: 0
+Odds de Saída: 3.00
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): -0.28
+
+
+insert into input values(default, '2023-08-06', 'Inglaterra Community Shield','Manchester City','Arsenal','Back Mandante',2.22,0,3.00,45,0,0,1,1,1.0,'Red',-0.28,default); - ok
+
+
+Data: 2023-08-06
+Torneio: Inglaterra Community Shield
+Manchester City x Arsenal
+Operação: Lay Empate
+Odds de Entrada: 1.78
+Minuto da Entrada: 70
+Odds de Saída: 6.00
+Minuto de Saída: 77
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): 0.39
+
+
+insert into input values(default, '2023-08-06', 'Inglaterra Community Shield','Manchester City','Arsenal','Lay Empate',1.78,70,6.00,77,0,0,1,1,1.0,'Green',0.39,default); - ok

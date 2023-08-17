@@ -1,0 +1,18 @@
+
+Data: 2023-08-11
+Torneio: Copa da Alemanha
+Saarbrucken x Karlsruhe
+Operação: Over 1,5
+Odds de Entrada: 1.61
+Minuto da Entrada: 36
+Odds de Saída: 1.25
+Minuto de Saída: 47
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.27
+
+
+insert into input values(default, '2023-08-11', 'Copa da Alemanha','Saarbrucken','Karlsruhe','Over 1,5',1.61,36,1.25,47,0,0,2,1,1.00,'Green',0.27,default); - ok

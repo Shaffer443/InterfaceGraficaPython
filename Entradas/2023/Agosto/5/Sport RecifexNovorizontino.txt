@@ -1,0 +1,18 @@
+
+Data: 2023-08-05
+Torneio: Brasileiro Série B
+Sport Recife x Novorizontino
+Operação: Back Empate
+Odds de Entrada: 2.00
+Minuto da Entrada: 60
+Odds de Saída: 1.89
+Minuto de Saída: 66
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): 0.05
+
+
+insert into input values(default, '2023-08-05', 'Brasileiro Série B','Sport Recife','Novorizontino','Back Empate',2.00,60,1.89,66,0,0,1,0,1.0,'Green',0.05,default);
