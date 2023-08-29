@@ -1,0 +1,18 @@
+
+Data: 2023-08-21
+Torneio: La Liga
+Alaves x Sevilla
+Operação: Under 2,5
+Odds de Entrada: 5.1
+Minuto da Entrada: 26
+Odds de Saída: 4.5
+Minuto de Saída: 35
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.13
+
+
+insert into input values(default, '2023-08-21', 'La Liga','Alaves','Sevilla','Under 2,5',5.1,26,4.5,35,2,2,2,1,1.00,'Green',0.13,default);

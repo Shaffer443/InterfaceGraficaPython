@@ -1,11 +1,13 @@
-from tkinter import *
+from tkinter import * #updagre 1.2.1
+import tkinter as tk #updagre 1.2.1
+from tkinter import ttk
 import datetime
 from datetime import date
 import os
 import os.path
 import funcao
 import criacaoDiretorio
-
+# import selecaoMercados #updagre 1.2.1
 
 
 
@@ -54,8 +56,8 @@ def salvar():
                 #arquivo.write(f"{today}\n\n")
                 arquivo.write("\nData: %s\n" %today)
                 arquivo.write(f"Torneio: %s\n" %torneio.get())
-                arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get()) #pode ser desnecessário
-                arquivo.write("Operação: %s\n"%mercado.get())
+                arquivo.write("%s"%casanome.get() + " x " + "%s\n"%visitantenome.get())
+                arquivo.write("Operação: %s\n"%mercado.get()) # update 1.2.1
                 arquivo.write("Odds de Entrada: %s\n"%oddsEntrada.get())
                 arquivo.write("Minuto da Entrada: %s\n"%minEntrada.get())
                 arquivo.write("Odds de Saída: %s\n" %oddsSaida.get())
@@ -164,22 +166,23 @@ janela.configure(background="#008") # cor de fundo em RGB
 autor=Label(janela,text="Criado por: Rafael Gouveia - https://linktr.ee/rafaelgouveia",background="#008",foreground="#fff")
 autor.place(x=250, y=690, width=500, height=30)
 
-ultimaAtualizacao=Label(janela,text=f"Última Atualização: 05/08/2023",background="#006",foreground="#fff")
+ultimaAtualizacao=Label(janela,text=f"Última Atualização: 29/08/2023",background="#006",foreground="#fff")
 ultimaAtualizacao.place(x=800, y=690, width=250, height=30)
 
-#conteudo:
+#conteudo (info Sistemas):
 
 nome=Label(janela,text="Acompanhamento de Entradas Trader Esportivo",background="#fff",)
 nome.place(x=10, y=10, width=330, height=30)
 
-nome=Label(janela,text="Versão beta 1.2",background="#000", foreground="#fff")
+nome=Label(janela,text="Versão beta 1.2.2",background="#000", foreground="#fff")
 nome.place(x=940, y=10, width=130, height=30)
 
 info=Label(janela,text= f"{infoDataHora()}",background="#000", foreground="#fff")
 info.place(x=450, y=10, width=300, height=30)
 
-#definindo valores e blocos
+# Definindo os Blocos
 
+# Container de Informarções (Futuros upgrades)
 fundo = "#fff"
 cor_fonte = "#000"
 
@@ -188,9 +191,25 @@ subjanela.pack(ipadx=20, ipady=20, padx=5, pady=150, side="left", fill=Y, expand
 
 #entradas
 
+#Torneio (padrão atual)
+
+# torneioNome=Label(janela, text="Torneio", bg="#008", foreground="#fff").place(x=500,y=80, width=100, height=25)
+# torneio=Entry(janela)
+# torneio.place(x=400,y=110, width=300, height=25)
+
+########################################### Torneio - Update 1.2.2
 torneioNome=Label(janela, text="Torneio", bg="#008", foreground="#fff").place(x=500,y=80, width=100, height=25)
-torneio=Entry(janela)
-torneio.place(x=400,y=110, width=300, height=25)
+torneio = tk.StringVar()
+combo2 = ttk.Combobox(janela, textvariable=torneio)
+combo2['values'] = ('Alemanha Supertaça', 'Amistoso de Elite', 'Brasileiro Série A', 'Brasileiro Série B', 'Bundesliga Alemã',
+                    'CONMEBOL Libertadores', 'Campeonato Brasileiro', 'Capa do Mundo da FIFA Feminino', 'Copa Do Brasil',
+                    'Copa da Alemanha', 'Copa da Itália', 'Copa do Nordeste', 'Escócia - Premiership', 'Espanha La Liga',
+                    'França ligue 1', 'Holanda - Eredivisie', 'Inglaterra Community Shield', 'Inglaterra Premier League',
+                    'Itália - Série A', 'Itália Serie A', 'Liga Conferência Europa', 'Liga Profissional da Arábia Saudita',
+                    'Portugal Supertaça', 'Portugal- Primeira Liga', 'Sul Americana', 'UEFA Champions League', 'UEFA Champions League',
+                    'UEFA Euro Eliminatórias', 'UEFA Europa Conference League', 'UEFA Liga Das Nações', 'UEFA Liga Europa', 'UEFA Liga Europa',
+                    'UEFA Liga dos Campeões Eliminatórias', 'UEFA Supertaça')
+combo2.place(x=400,y=110, width=300, height=25)
 
 casa=Label(janela, text="Time Mandante (Casa)", bg="#008", foreground="#fff").place(x=260,y=150, width=200, height=25)
 casanome=Entry(janela)
@@ -201,15 +220,24 @@ visitantenome=Entry(janela)
 visitantenome.place(x=600,y=180, width=300, height=25)
 
 
-#Input Dados
+####Input Dados
+
+#mercado (padrão atual)
+# mercadoNome=Label(janela, text="Mercado Alvo", bg="#008", foreground="#fff", anchor=W).place(x=500,y=220, width=100, height=25)
+# mercado=Entry(janela)
+# mercado.place(x=400,y=250, width=300, height=25)
+
+########################################### Mercada - Update 1.2.1
+
+mercadoNome=Label(janela, text="Mercado Alvo", bg="#008", foreground="#ffff00", anchor=W).place(x=500,y=220, width=100, height=25)
+mercado = tk.StringVar()
+combo = ttk.Combobox(janela, textvariable=mercado)
+combo['values'] = ('Back Mandante','Back Visitante','Back Empate','Lay Empate','Lay Mandante','Lay Visitante','Over 0,5 no 2º tempo','Over 1,5','Over 2,5','Over 3,5','Under 1,5','Under 2,5','Under 3,5')
+combo.place(x=400,y=250, width=300, height=25)
+# combo.pack()
 
 
-mercadoNome=Label(janela, text="Mercado Alvo", bg="#008", foreground="#fff", anchor=W).place(x=500,y=220, width=100, height=25)
-mercado=Entry(janela)
-mercado.place(x=400,y=250, width=300, height=25)
-
-
-
+##############################################################
 oddsEntradaNome=Label(janela, text="Odds de Entrada", bg="#008", foreground="#fff", anchor=W).place(x=200,y=320, width=150, height=25)
 oddsEntrada=Entry(janela)
 oddsEntrada.place(x=330,y=320, width=100, height=25)

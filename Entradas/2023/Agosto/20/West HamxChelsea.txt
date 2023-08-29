@@ -1,0 +1,18 @@
+
+Data: 2023-08-20
+Torneio: Premier League
+West Ham x Chelsea
+Operação: Lay Mandante
+Odds de Entrada: 2.14
+Minuto da Entrada: 24
+Odds de Saída: 4.4
+Minuto de Saída: 28
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.14
+Retorno da Operação (R$ ou $): 0.48
+
+
+insert into input values(default, '2023-08-20', 'Premier League','West Ham','Chelsea','Lay Mandante',2.14,24,4.4,28,1,1,2,0,1.14,'Green',0.48,default);

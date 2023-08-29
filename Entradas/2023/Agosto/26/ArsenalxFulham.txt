@@ -1,0 +1,18 @@
+
+Data: 2023-08-26
+Torneio: Premier League
+Arsenal x Fulham
+Operação: Back Mandante
+Odds de Entrada: 1.75
+Minuto da Entrada: 20
+Odds de Saída: 2.32
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.26
+
+
+insert into input values(default, '2023-08-26', 'Premier League','Arsenal','Fulham','Back Mandante',1.75,20,2.32,45,0,1,2,1,1.00,'Red',-0.26,default);

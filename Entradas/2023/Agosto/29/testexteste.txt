@@ -1,0 +1,18 @@
+
+Data: 2023-08-29
+Torneio: Alemanha Supertaça
+teste x teste
+Operação: Lay Mandante
+Odds de Entrada: 1.50
+Minuto da Entrada: 23
+Odds de Saída: 1.80
+Minuto de Saída: 65
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 4
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.01
+
+
+insert into input values(default, '2023-08-29', 'Alemanha Supertaça','teste','teste','Lay Mandante',1.50,23,1.80,65,1,2,3,4,1.00,'Green',0.01,default);

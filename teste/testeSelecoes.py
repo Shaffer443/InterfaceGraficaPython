@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 
+#EXCLUIR ESTE ARQUIVO DEPOIS DE MEXER
+
 def submit():
     value = entry.get()
     label_result.config(text=f"Valor inserido: {value}")
@@ -8,8 +10,6 @@ def submit():
 def mercado():
     value = combo_var.get()
     label_result.config(text=f"Valor inserido: {value}")
-
-
 
 
 root = tk.Tk()

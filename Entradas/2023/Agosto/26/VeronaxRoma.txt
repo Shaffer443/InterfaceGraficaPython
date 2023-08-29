@@ -1,0 +1,17 @@
+
+Data: 2023-08-26
+Torneio: Itália Série A
+Verona x Roma
+Operação: Back Visitante
+Odds de Entrada: 3.40
+Minuto da Entrada: 34
+Odds de Saída: 9.99
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0,73
+
+insert into input values(default, '2023-08-26', 'Itália Série A','Verona','Roma','Back Visitante',3.40,34,9.99,45,2,0,0,1,1.00,'Red',-0.73,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-08-26
+Torneio: Premier League
+Brighton x West Ham
+Operação: Back Mandante
+Odds de Entrada: 2.60
+Minuto da Entrada: 30
+Odds de Saída: 3.35
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo:2 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.24
+
+
+insert into input values(default, '2023-08-26', 'Premier League','Brighton','West Ham','Back Mandante',2.60,30,3.35,45,0,1,1,2,1.00,'Red',-0.24,default);

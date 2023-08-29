@@ -1,0 +1,18 @@
+
+Data: 2023-08-26
+Torneio: Premier League
+Manchester United x Nottm Forest
+Operação: Back Mandante
+Odds de Entrada: 1.86
+Minuto da Entrada: 24
+Odds de Saída: 2.58
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.28
+
+
+insert into input values(default, '2023-08-26', 'Premier League','Manchester United','Nottm Forest','Back Mandante',1.86,24,2.58,45,1,2,2,0,1.00,'Red',-0.28,default);

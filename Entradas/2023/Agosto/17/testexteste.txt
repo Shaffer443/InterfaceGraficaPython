@@ -1,0 +1,39 @@
+
+Data: 2023-08-17
+Torneio: teste
+teste x teste
+
+Data: 2023-08-17
+Torneio: teste
+teste x teste
+Operação: Lay Mandante
+Odds de Entrada: 1.56
+Minuto da Entrada: 23
+Odds de Saída: 1.89
+Minuto de Saída: 42
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.36
+
+
+
+Data: 2023-08-17
+Torneio: teste
+teste x teste
+Operação: Back Empate
+Odds de Entrada: 2.65
+Minuto da Entrada: 65
+Odds de Saída: 3.00
+Minuto de Saída: 75
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): 0.20
+
+
+insert into input values(default, '2023-08-17', 'teste','teste','teste','Back Empate',2.65,65,3.00,75,1,1,0,0,1.0,'Green',0.20,default);
