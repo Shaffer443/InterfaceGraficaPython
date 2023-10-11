@@ -1,0 +1,18 @@
+
+Data: 2023-09-21
+Torneio: UEFA Europa Conference League
+Legia Warsaw x Aston Villa
+Operação: Back Mandante
+Odds de Entrada: 1.55
+Minuto da Entrada: 78
+Odds de Saída: 1.34
+Minuto de Saída: 85
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.15
+
+
+insert into input values(default, '2023-09-21', 'UEFA Europa Conference League','Legia Warsaw','Aston Villa','Back Mandante',1.55,78,1.34,85,2,2,1,0,1.00,'Green',0.15,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-09-02
+Torneio: Bundesliga Alemã
+Mgladbach x Bayern de Munique
+Operação: Back Visitante
+Odds de Entrada: 1.91
+Minuto da Entrada: 38
+Odds de Saída: 2.94
+Minuto de Saída: 57
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.35
+
+
+insert into input values(default, '2023-09-02', 'Bundesliga Alemã','Mgladbach','Bayern de Munique','Back Visitante',1.91,38,2.94,57,1,0,0,2,1.00,'Red',-0.35,default);

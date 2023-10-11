@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Bundesliga Alemã 2
+Holstein Kiel x Hertha Berlin
+Operação: Over 2,5
+Odds de Entrada: 1.74
+Minuto da Entrada: 17
+Odds de Saída: 1.37
+Minuto de Saída: 27
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.26
+
+
+insert into input values(default, '2023-09-24', 'Bundesliga Alemã 2','Holstein Kiel','Hertha Berlin','Over 2,5',1.74,17,1.37,27,0,2,2,1,1.00,'Green',0.26,default);

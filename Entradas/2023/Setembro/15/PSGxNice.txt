@@ -1,0 +1,18 @@
+
+Data: 2023-09-15
+Torneio: França ligue 1
+PSG x Nice
+Operação: Back Visitante
+Odds de Entrada: 1.14
+Minuto da Entrada: 71
+Odds de Saída: 1.07
+Minuto de Saída: 93
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.06
+
+
+insert into input values(default, '2023-09-15', 'França ligue 1','PSG','Nice','Back Visitante',1.14,71,1.07,93,1,1,1,2,1.00,'Green',0.06,default);

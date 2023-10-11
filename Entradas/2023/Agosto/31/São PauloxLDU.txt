@@ -1,0 +1,18 @@
+
+Data: 2023-08-31
+Torneio: Sul Americana
+São Paulo x LDU
+Operação: Over 1,5
+Odds de Entrada: 1.62
+Minuto da Entrada: 33
+Odds de Saída: 1.95
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.17
+
+
+insert into input values(default, '2023-08-31', 'Sul Americana','São Paulo','LDU','Over 1,5',1.62,33,1.95,45,0,0,1,0,1.00,'Red',-0.17,default); ok

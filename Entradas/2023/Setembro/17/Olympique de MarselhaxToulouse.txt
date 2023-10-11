@@ -1,0 +1,18 @@
+
+Data: 2023-09-17
+Torneio: França ligue 1
+Olympique de Marselha x Toulouse
+Operação: Over 1,5
+Odds de Entrada: 1.60
+Minuto da Entrada: 37
+Odds de Saída: 1.90
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+
+insert into input values(default, '2023-09-17', 'França ligue 1','Olympique de Marselha','Toulouse','Over 1,5',1.60,37,1.90,45,0,0,0,0,1.00,'Red',-0.16,default);

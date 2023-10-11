@@ -1,0 +1,18 @@
+
+Data: 2023-09-26
+Torneio: Itália - Série A
+Juventus x Lecce
+Operação: Lay Mandante
+Odds de Entrada: 1.61
+Minuto da Entrada: 35
+Odds de Saída: 1.72
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.13
+
+
+insert into input values(default, '2023-09-26', 'Itália - Série A','Juventus','Lecce','Lay Mandante',1.61,35,1.72,45,0,0,1,0,2.00,'Green',0.13,default);

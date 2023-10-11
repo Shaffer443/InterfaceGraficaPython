@@ -1,0 +1,18 @@
+
+Data: 2023-09-14
+Torneio: Brasileiro Série A
+Santos x Cruzeiro
+Operação: Over 1,5
+Odds de Entrada: 2.08
+Minuto da Entrada: 35
+Odds de Saída: 1.32
+Minuto de Saída: 41
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.54
+
+
+insert into input values(default, '2023-09-14', 'Brasileiro Série A','Santos','Cruzeiro','Over 1,5',2.08,35,1.32,41,0,1,0,3,1.00,'Green',0.54,default);

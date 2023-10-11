@@ -1,0 +1,18 @@
+
+Data: 2023-09-15
+Torneio: Bundesliga Alemã
+Bayern de Munique x Leverkusen
+Operação: Over 3,5
+Odds de Entrada: 1.80
+Minuto da Entrada: 50
+Odds de Saída: 2.34
+Minuto de Saída: 60
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.24
+
+
+insert into input values(default, '2023-09-15', 'Bundesliga Alemã','Bayern de Munique','Leverkusen','Over 3,5',1.80,50,2.34,60,1,1,1,1,1.00,'Red',-0.24,default);

@@ -1,0 +1,36 @@
+
+Data: 2023-09-17
+Torneio: Inglaterra Premier League
+Everton x Arsenal
+Operação: Back Visitante
+Odds de Entrada: 1.67
+Minuto da Entrada: 26
+Odds de Saída: 2.02
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0 
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+
+insert into input values(default, '2023-09-17', 'Inglaterra Premier League','Everton','Arsenal','Back Visitante',1.67,26,2.02,45,0,0,0,1,1.00,'Red',-0.16,default);
+
+Data: 2023-09-17
+Torneio: Inglaterra Premier League
+Everton x Arsenal
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.46
+Minuto da Entrada: 60
+Odds de Saída: 1.00
+Minuto de Saída: 69
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.43
+
+
+insert into input values(default, '2023-09-17', 'Inglaterra Premier League','Everton','Arsenal','Over 0,5 no 2º tempo',1.46,60,1.00,69,0,0,0,1,1.00,'Green',0.43,default);

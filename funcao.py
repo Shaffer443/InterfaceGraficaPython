@@ -26,8 +26,8 @@ def organizandoData():
     go = dt.strftime("%Y-%m-%d")
     return go
 
-
-def criacaoScriptMysql(torneio, mandante, visitante, operacao, oddsentrada, minentrada, oddssaida, minsaida, golscasa,golsvisitante,golscasa2tempo,golsvisitante2tempo,valoroperacao,retornooperacao ):
+                                                                                                                                                                                                        #update1.2.3
+def criacaoScriptMysql(torneio, mandante, visitante, operacao, oddsentrada, minentrada, oddssaida, minsaida, golscasa,golsvisitante,golscasa2tempo,golsvisitante2tempo,valoroperacao,retornooperacao,retornoPorcentagem):
     introTuplaMySQl = "insert into input values(default"
     finalTuplaMySQL = "default);"
     script = {'intro': introTuplaMySQl,
@@ -46,24 +46,16 @@ def criacaoScriptMysql(torneio, mandante, visitante, operacao, oddsentrada, mine
               'Gols Visitante no Segundo Tempo': golsvisitante2tempo,
               'Valor em Dinheiro na Operação':padraoValorEntrada(valoroperacao),
               'Green ou Red':scriptInputJogoRedGreen(retornooperacao),
-              'Lucro ou PRejuízo em dinheiro':retornooperacao,
+              'Lucro ou Prejuízo em dinheiro':retornooperacao,
+              'Retorno da operação sobre a Stake':retornoPorcentagem,#update1.2.3
               'final': finalTuplaMySQL}
 
     scriptChaves = script.keys()
     scriptValores = script.values()
 
-    # novoScript = ('insert into input values(default',[],'default);')
-    # cont= 0
-    # for n in scriptTeste:
-    #     # print(n)
-    #     novoScript[1].append(n)
-    #     # scriptTeste.add(script[cont])
-    #     cont += 1
-    #
     # print(novoScript)
+    # print(scriptChaves)
 
-    print(scriptChaves)
-    # print(scriptChaves[1][1])
 
     textoScript = (f"{script['intro']}, "
                    f"'{script['Data']}', "
@@ -81,12 +73,18 @@ def criacaoScriptMysql(torneio, mandante, visitante, operacao, oddsentrada, mine
                    f"{script['Gols Visitante no Segundo Tempo']},"
                    f"{script['Valor em Dinheiro na Operação']},"
                    f"'{script['Green ou Red']}',"
-                   f"{script['Lucro ou PRejuízo em dinheiro']},"
+                   f"{script['Lucro ou Prejuízo em dinheiro']},"
+                   f"{script['Retorno da operação sobre a Stake']},"
                    f"{script['final']}"
                    )
-    print(textoScript)
+
+    print(scriptChaves) #informações no terminal
+    print("\n")
+    print(textoScript) #informações no terminal
 
     return textoScript
+
+print("\n")
 
 # def fechandoTela(janela, tempo):
 #         janela.after(tempo * 1000, lambda: janela.destroy())
@@ -99,4 +97,6 @@ def criacaoScriptMysql(torneio, mandante, visitante, operacao, oddsentrada, mine
 
 # organizandoData()
 
-criacaoScriptMysql('teste', 'teste', 'teste', 'teste', 1.00, 31, 1.50, 50, 0,0,0,0,1.00, -0.01 )
+# criacaoScriptMysql('Brasileiro Série A', 'teste', 'teste', 'Over 1.5', 1.00, 31, 1.50, 50, 0,0,0,0,1.00, -0.01, -0.52 )
+
+# porcentagemLucroPrejuizo(1.80,0.32)

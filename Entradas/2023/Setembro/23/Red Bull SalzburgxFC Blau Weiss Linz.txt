@@ -1,0 +1,18 @@
+
+Data: 2023-09-23
+Torneio: Torneio Não Listado
+Red Bull Salzburg x FC Blau Weiss Linz
+Operação: Back Mandante
+Odds de Entrada: 1.37
+Minuto da Entrada: 29
+Odds de Saída: 4.00
+Minuto de Saída: 61
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.67
+
+
+insert into input values(default, '2023-09-23', 'Torneio Não Listado','Red Bull Salzburg','FC Blau Weiss Linz','Back Mandante',1.37,29,4.00,61,0,0,0,1,1.00,'Red',-0.67,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-09-20
+Torneio: UEFA Champions League
+Braga x Napoli
+Operação: Back Visitante
+Odds de Entrada: 1.87
+Minuto da Entrada: 14
+Odds de Saída: 1.34
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.36
+
+
+insert into input values(default, '2023-09-20', 'UEFA Champions League','Braga','Napoli','Back Visitante',1.87,14,1.34,45,0,1,1,1,1.00,'Green',0.36,default);

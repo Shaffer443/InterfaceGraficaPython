@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Itália - Série A
+Atalanta x Cagliari
+Operação: Back Mandante
+Odds de Entrada: 1.43
+Minuto da Entrada: 28
+Odds de Saída: 1.18
+Minuto de Saída: 33
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.21
+
+
+insert into input values(default, '2023-09-24', 'Itália - Série A','Atalanta','Cagliari','Back Mandante',1.43,28,1.18,33,1,0,1,0,1.00,'Green',0.21,default);

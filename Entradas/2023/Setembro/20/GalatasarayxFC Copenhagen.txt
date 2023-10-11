@@ -1,0 +1,36 @@
+
+Data: 2023-09-20
+Torneio: UEFA Champions League
+Galatasaray x FC Copenhagen
+Operação: Back Mandante
+Odds de Entrada: 1.56
+Minuto da Entrada: 17
+Odds de Saída: 1.68
+Minuto de Saída: 31
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.06
+
+
+insert into input values(default, '2023-09-20', 'UEFA Champions League','Galatasaray','FC Copenhagen','Back Mandante',1.56,17,1.68,31,0,1,2,1,1.00,'Red',-0.06,default);
+
+Data: 2023-09-20
+Torneio: UEFA Champions League
+Galatasaray x FC Copenhagen
+Operação: Back Visitante
+Odds de Entrada: 1.13
+Minuto da Entrada: 70
+Odds de Saída: 1.41
+Minuto de Saída: 85
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.21
+
+
+insert into input values(default, '2023-09-20', 'UEFA Champions League','Galatasaray','FC Copenhagen','Back Visitante',1.13,70,1.41,85,0,1,2,1,1.00,'Red',-0.21,default);

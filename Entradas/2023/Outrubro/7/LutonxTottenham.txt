@@ -1,0 +1,36 @@
+
+Data: 2023-10-07
+Torneio: Inglaterra Premier League
+Luton x Tottenham
+Operação: Back Visitante
+Odds de Entrada: 1.29
+Minuto da Entrada: 19
+Odds de Saída: 1.45
+Minuto de Saída: 28
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.50
+Retorno da Operação (R$ ou $): -0.19
+
+
+insert into input values(default, '2023-10-07', 'Inglaterra Premier League','Luton','Tottenham','Back Visitante',1.29,19,1.45,28,0,0,0,1,1.50,'Red',-0.19,default);
+
+Data: 2023-10-07
+Torneio: Inglaterra Premier League
+Luton x Tottenham
+Operação: Lay Mandante
+Odds de Entrada: 3.8
+Minuto da Entrada: 46
+Odds de Saída: 1000.0
+Minuto de Saída: 90
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.80
+Retorno da Operação (R$ ou $): 0.81
+
+
+insert into input values(default, '2023-10-07', 'Inglaterra Premier League','Luton','Tottenham','Lay Mandante',3.8,46,1000.0,90,0,0,0,1,2.80,'Green',0.81,default);

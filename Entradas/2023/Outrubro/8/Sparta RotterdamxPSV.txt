@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: Holanda - Eredivisie
+Sparta Rotterdam x PSV
+Operação: Back Visitante
+Odds de Entrada: 1.36
+Minuto da Entrada: 6
+Odds de Saída: 1.56
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 4
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.13
+
+
+insert into input values(default, '2023-10-08', 'Holanda - Eredivisie','Sparta Rotterdam','PSV','Back Visitante',1.36,6,1.56,45,0,0,0,4,1.00,'Red',-0.13,default);

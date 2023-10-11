@@ -1,0 +1,18 @@
+
+Data: 2023-10-07
+Torneio: Escócia-Premiership
+Hearts x Hibernian
+Operação: Lay Visitante
+Odds de Entrada: 3.15
+Minuto da Entrada: 18
+Odds de Saída: 1.1
+Minuto de Saída: 65
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 2.15
+Retorno da Operação (R$ ou $): 0.71
+
+
+insert into input values(default, '2023-10-07', 'Escócia-Premiership','Hearts','Hibernian','Lay Visitante',3.15,18,1.1,65,1,0,1,2,2.15,'Green',0.71,default);

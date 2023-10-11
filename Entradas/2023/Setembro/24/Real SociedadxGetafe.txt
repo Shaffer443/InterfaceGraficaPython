@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Espanha La Liga
+Real Sociedad x Getafe
+Operação: Back Mandante
+Odds de Entrada: 1.16
+Minuto da Entrada: 72
+Odds de Saída: 1.09
+Minuto de Saída: 86
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.09
+
+
+insert into input values(default, '2023-09-24', 'Espanha La Liga','Real Sociedad','Getafe','Back Mandante',1.16,72,1.09,86,1,2,3,1,2.00,'Green',0.09,default);

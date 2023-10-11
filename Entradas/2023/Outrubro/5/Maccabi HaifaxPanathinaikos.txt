@@ -1,0 +1,18 @@
+
+Data: 2023-10-05
+Torneio: UEFA Liga Europa
+Maccabi Haifa x Panathinaikos
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.82
+Minuto da Entrada: 63
+Odds de Saída: 2.62
+Minuto de Saída: 75
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.31
+
+
+insert into input values(default, '2023-10-05', 'UEFA Liga Europa','Maccabi Haifa','Panathinaikos','Over 0,5 no 2º tempo',1.82,63,2.62,75,0,0,0,0,1.00,'Red',-0.31,default);

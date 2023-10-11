@@ -1,0 +1,36 @@
+
+Data: 2023-09-17
+Torneio: França ligue 1
+Lyon x Le Havre
+Operação: Under 3,5
+Odds de Entrada: 1.51
+Minuto da Entrada: 1
+Odds de Saída: 1.34
+Minuto de Saída: 15
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.13
+
+
+insert into input values(default, '2023-09-17', 'França ligue 1','Lyon','Le Havre','Under 3,5',1.51,1,1.34,15,0,0,0,0,1.00,'Green',0.13,default);
+
+Data: 2023-09-17
+Torneio: França ligue 1
+Lyon x Le Havre
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.45
+Minuto da Entrada: 61
+Odds de Saída: 1.81
+Minuto de Saída: 71
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.22
+
+
+insert into input values(default, '2023-09-17', 'França ligue 1','Lyon','Le Havre','Over 0,5 no 2º tempo',1.45,61,1.81,71,0,0,0,0,1.00,'Red',-0.22,default);

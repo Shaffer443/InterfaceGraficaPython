@@ -1,0 +1,18 @@
+
+Data: 2023-09-29
+Torneio: Bundesliga Alemã
+Hoffenheim x Dortmund
+Operação: Over 2,5
+Odds de Entrada: 1.52
+Minuto da Entrada: 37
+Odds de Saída: 1.19
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.69
+
+
+insert into input values(default, '2023-09-29', 'Bundesliga Alemã','Hoffenheim','Dortmund','Over 2,5',1.52,37,1.19,45,1,2,0,1,2.00,'Green',0.69,default);

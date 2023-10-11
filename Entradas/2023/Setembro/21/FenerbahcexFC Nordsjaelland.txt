@@ -1,0 +1,18 @@
+
+Data: 2023-09-21
+Torneio: UEFA Europa Conference League
+Fenerbahce x FC Nordsjaelland
+Operação: Back Mandante
+Odds de Entrada: 1.07
+Minuto da Entrada: 46
+Odds de Saída: 1.02
+Minuto de Saída: 47
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 5.00
+Retorno da Operação (R$ ou $): 0.25
+
+
+insert into input values(default, '2023-09-21', 'UEFA Europa Conference League','Fenerbahce','FC Nordsjaelland','Back Mandante',1.07,46,1.02,47,2,0,1,1,5.00,'Green',0.25,default);

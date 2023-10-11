@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Inglaterra Premier League
+Liverpool x West Ham
+Operação: Back Mandante
+Odds de Entrada: 1.15
+Minuto da Entrada: 72
+Odds de Saída: 1.00
+Minuto de Saída: 85
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.19
+
+
+insert into input values(default, '2023-09-24', 'Inglaterra Premier League','Liverpool','West Ham','Back Mandante',1.15,72,1.00,85,1,1,2,0,2.00,'Green',0.19,default);

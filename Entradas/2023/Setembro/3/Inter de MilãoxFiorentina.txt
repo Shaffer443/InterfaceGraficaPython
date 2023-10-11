@@ -1,0 +1,18 @@
+
+Data: 2023-09-03
+Torneio: Itália - Série A
+Inter de Milão x Fiorentina
+Operação: Back Mandante
+Odds de Entrada: 1.68
+Minuto da Entrada: 3
+Odds de Saída: 1.30
+Minuto de Saída: 24
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.27
+
+
+insert into input values(default, '2023-09-03', 'Itália - Série A','Inter de Milão','Fiorentina','Back Mandante',1.68,3,1.30,24,1,0,3,0,1.00,'Green',0.27,default);

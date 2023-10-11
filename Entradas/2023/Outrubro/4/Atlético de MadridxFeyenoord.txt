@@ -1,0 +1,18 @@
+
+Data: 2023-10-04
+Torneio: UEFA Champions League
+Atlético de Madrid x Feyenoord
+Operação: Lay Mandante
+Odds de Entrada: 4.1
+Minuto da Entrada: 39
+Odds de Saída: 5
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 3.10
+Retorno da Operação (R$ ou $): 0.18
+
+
+insert into input values(default, '2023-10-04', 'UEFA Champions League','Atlético de Madrid','Feyenoord','Lay Mandante',4.1,39,5,45,2,2,1,0,3.10,'Green',0.18,default);

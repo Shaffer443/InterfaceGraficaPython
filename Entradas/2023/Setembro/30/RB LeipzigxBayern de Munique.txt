@@ -1,0 +1,18 @@
+
+Data: 2023-09-30
+Torneio: Bundesliga Alemã
+RB Leipzig x Bayern de Munique
+Operação: Lay Mandante
+Odds de Entrada: 4.40
+Minuto da Entrada: 3
+Odds de Saída: 2.22
+Minuto de Saída: 20
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 6.60
+Retorno da Operação (R$ ou $): -1.94
+
+
+insert into input values(default, '2023-09-30', 'Bundesliga Alemã','RB Leipzig','Bayern de Munique','Lay Mandante',4.40,3,2.22,20,2,0,0,2,6.60,'Red',-1.94,default);

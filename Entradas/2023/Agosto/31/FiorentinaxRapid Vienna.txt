@@ -1,0 +1,18 @@
+
+Data: 2023-08-31
+Torneio: Liga Conferência Europa
+Fiorentina x Rapid Vienna
+Operação: Over 2,5
+Odds de Entrada: 2.18
+Minuto da Entrada: 38
+Odds de Saída: 2.60
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.17
+
+
+insert into input values(default, '2023-08-31', 'UEFA Europa Conference League Classificatórias','Fiorentina','Rapid Vienna','Over 2,5',2.18,38,2.60,45,0,0,2,0,1.00,'Red',-0.17,default); ok

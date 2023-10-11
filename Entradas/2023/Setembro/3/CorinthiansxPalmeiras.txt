@@ -1,0 +1,18 @@
+
+Data: 2023-09-03
+Torneio: Brasileiro Série A
+Corinthians x Palmeiras
+Operação: Back Visitante
+Odds de Entrada: 2.02
+Minuto da Entrada: 28
+Odds de Saída: 2.38
+Minuto de Saída: 54
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+
+insert into input values(default, '2023-09-03', 'Brasileiro Série A','Corinthians','Palmeiras','Back Visitante',2.02,28,2.38,54,0,0,0,0,1.00,'Red',-0.16,default);

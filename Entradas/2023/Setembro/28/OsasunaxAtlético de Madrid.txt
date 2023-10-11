@@ -1,0 +1,18 @@
+
+Data: 2023-09-28
+Torneio: Espanha - La Liga
+Osasuna x Atlético de Madrid
+Operação: Back Visitante
+Odds de Entrada: 1.93
+Minuto da Entrada: 8
+Odds de Saída: 2.02
+Minuto de Saída: 18
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.05
+
+
+insert into input values(default, '2023-09-28', 'Espanha - La Liga','Osasuna','Atlético de Madrid','Back Visitante',1.93,8,2.02,18,0,1,0,1,1.00,'Red',-0.05,default);

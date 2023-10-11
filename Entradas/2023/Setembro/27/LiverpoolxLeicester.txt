@@ -1,0 +1,18 @@
+
+Data: 2023-09-27
+Torneio: Inglaterra Copa da Liga
+Liverpool x Leicester
+Operação: Back Mandante
+Odds de Entrada: 1.78
+Minuto da Entrada: 20
+Odds de Saída: 2.36
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.25
+
+
+insert into input values(default, '2023-09-27', 'Inglaterra Copa da Liga','Liverpool','Leicester','Back Mandante',1.78,20,2.36,45,0,1,3,0,1.00,'Red',-0.25,default);

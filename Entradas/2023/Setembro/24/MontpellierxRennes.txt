@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: França ligue 1
+Montpellier x Rennes
+Operação: Over 1,5
+Odds de Entrada: 1.52
+Minuto da Entrada: 25
+Odds de Saída: 2.20
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): -0.50
+
+
+insert into input values(default, '2023-09-24', 'França ligue 1','Montpellier','Rennes','Over 1,5',1.52,25,2.20,45,0,0,0,0,2.00,'Red',-0.50,default);

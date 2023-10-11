@@ -1,0 +1,18 @@
+
+Data: 2023-09-26
+Torneio: Espanha La Liga
+Mallorca x Barcelona
+Operação: Lay Mandante
+Odds de Entrada: 3.60
+Minuto da Entrada: 24
+Odds de Saída: 9.6
+Minuto de Saída: 41
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 3.00
+Retorno da Operação (R$ ou $): 0.71
+
+
+insert into input values(default, '2023-09-26', 'Espanha La Liga','Mallorca','Barcelona','Lay Mandante',3.60,24,9.6,41,2,1,0,1,3.00,'Green',0.71,default);

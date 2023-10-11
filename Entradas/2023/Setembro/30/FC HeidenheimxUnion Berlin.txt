@@ -1,0 +1,36 @@
+
+Data: 2023-09-30
+Torneio: Bundesliga Alemã
+FC Heidenheim x Union Berlin
+Operação: Over 1,5
+Odds de Entrada: 1.67
+Minuto da Entrada: 31
+Odds de Saída: 2.18
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): -0.47
+
+
+insert into input values(default, '2023-09-30', 'Bundesliga Alemã','FC Heidenheim','Union Berlin','Over 1,5',1.67,31,2.18,45,0,0,1,0,2.00,'Red',-0.47,default);
+
+Data: 2023-09-30
+Torneio: Bundesliga Alemã
+FC Heidenheim x Union Berlin
+Operação: Back Mandante
+Odds de Entrada: 1.61
+Minuto da Entrada: 61
+Odds de Saída: 1.57
+Minuto de Saída: 66
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.04
+
+
+insert into input values(default, '2023-09-30', 'Bundesliga Alemã','FC Heidenheim','Union Berlin','Back Mandante',1.61,61,1.57,66,0,0,1,0,1.00,'Green',0.04,default);

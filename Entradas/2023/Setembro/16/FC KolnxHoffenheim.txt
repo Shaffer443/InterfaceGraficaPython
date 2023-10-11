@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Bundesliga Alemã
+FC Koln x Hoffenheim
+Operação: Back Visitante
+Odds de Entrada: 1.07
+Minuto da Entrada: 76
+Odds de Saída: 1.02
+Minuto de Saída: 87
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.05
+
+
+insert into input values(default, '2023-09-16', 'Bundesliga Alemã','FC Koln','Hoffenheim','Back Visitante',1.07,76,1.02,87,0,2,1,1,1.00,'Green',0.05,default);

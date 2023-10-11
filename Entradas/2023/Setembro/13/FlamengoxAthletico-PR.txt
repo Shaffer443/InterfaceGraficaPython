@@ -1,0 +1,18 @@
+
+Data: 2023-09-13
+Torneio: Brasileiro Série A
+Flamengo x Athletico-PR
+Operação: Over 2,5
+Odds de Entrada: 1.87
+Minuto da Entrada: 34
+Odds de Saída: 2.37
+Minuto de Saída: 60
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.54
+
+
+insert into input values(default, '2023-09-13', 'Brasileiro Série A','Flamengo','Athletico-PR','Over 2,5',1.87,34,2.37,60,0,1,0,2,1.00,'Red',-0.54,default);

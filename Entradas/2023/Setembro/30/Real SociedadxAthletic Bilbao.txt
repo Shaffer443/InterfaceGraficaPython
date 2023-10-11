@@ -1,0 +1,18 @@
+
+Data: 2023-09-30
+Torneio: Espanha - La Liga
+Real Sociedad x Athletic Bilbao
+Operação: Lay Empate
+Odds de Entrada: 3.10
+Minuto da Entrada: 9
+Odds de Saída: 4.70
+Minuto de Saída: 38
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.50
+Retorno da Operação (R$ ou $): 0.38
+
+
+insert into input values(default, '2023-09-30', 'Espanha - La Liga','Real Sociedad','Athletic Bilbao','Lay Empate',3.10,9,4.70,38,1,0,2,0,2.50,'Green',0.38,default);

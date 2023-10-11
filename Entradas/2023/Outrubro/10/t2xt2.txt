@@ -1,0 +1,18 @@
+
+Data: 2023-10-10
+Torneio: 
+t2 x t2
+Operação: 
+Odds de Entrada: 
+Minuto da Entrada: 
+Odds de Saída: 
+Minuto de Saída: 
+Gols Mandante 1 tempo: 
+Gols Visitante 1 tempo: 
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.62
+
+
+insert into input values(default, '2023-10-10', '','t2','t2','',,,,,,,,,1.00,'Green',0.62,default);

@@ -1,0 +1,36 @@
+
+Data: 2023-10-07
+Torneio: Bundesliga 2 Alemã
+Wehen Wiesbaden x Hamburger SV
+Operação: Over 1,5
+Odds de Entrada: 1.31
+Minuto da Entrada: 21
+Odds de Saída: 1.73
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.24
+
+
+insert into input values(default, '2023-10-07', 'Bundesliga 2 Alemã','Wehen Wiesbaden','Hamburger SV','Over 1,5',1.31,21,1.73,45,0,0,1,1,1.00,'Red',-0.24,default);
+
+Data: 2023-10-07
+Torneio: Bundesliga 2 Alemã
+Wehen Wiesbaden x Hamburger SV
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.44
+Minuto da Entrada: 65
+Odds de Saída: 1.70
+Minuto de Saída: 72
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+
+insert into input values(default, '2023-10-07', 'Bundesliga 2 Alemã','Wehen Wiesbaden','Hamburger SV','Over 0,5 no 2º tempo',1.44,65,1.70,72,0,0,1,1,1.00,'Red',-0.16,default);

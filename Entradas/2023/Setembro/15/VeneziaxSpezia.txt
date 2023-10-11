@@ -1,0 +1,18 @@
+
+Data: 2023-09-15
+Torneio: Itália Serie B
+Venezia x Spezia
+Operação: Over 1,5
+Odds de Entrada: 1.60
+Minuto da Entrada: 29
+Odds de Saída: 2.22
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.29
+
+
+insert into input values(default, '2023-09-15', 'Itália Serie B','Venezia','Spezia','Over 1,5',1.60,29,2.22,45,0,0,1,0,1.00,'Red',-0.29,default);

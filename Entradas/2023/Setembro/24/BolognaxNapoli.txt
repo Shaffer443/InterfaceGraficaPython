@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Itália - Série A
+Bologna x Napoli
+Operação: Back Visitante
+Odds de Entrada: 2.06
+Minuto da Entrada: 7
+Odds de Saída: 2.20
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.07
+
+
+insert into input values(default, '2023-09-24', 'Itália - Série A','Bologna','Napoli','Back Visitante',2.06,7,2.20,45,0,0,0,0,1.00,'Red',-0.07,default);

@@ -1,0 +1,36 @@
+
+Data: 2023-09-02
+Torneio: Espanha La Liga
+Real Madrid x Getafe
+Operação: Back Mandante
+Odds de Entrada: 2.02
+Minuto da Entrada: 26
+Odds de Saída: 2.78
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.28
+
+
+insert into input values(default, '2023-09-02', 'Espanha La Liga','Real Madrid','Getafe','Back Mandante',2.02,26,2.78,45,0,1,2,0,1.00,'Red',-0.28,default);
+
+Data: 2023-09-02
+Torneio: Espanha La Liga
+Real Madrid x Getafe
+Operação: Back Mandante
+Odds de Entrada: 1.74
+Minuto da Entrada: 62
+Odds de Saída: 2.06
+Minuto de Saída: 74
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.16
+
+
+insert into input values(default, '2023-09-02', 'Espanha La Liga','Real Madrid','Getafe','Back Mandante',1.74,62,2.06,74,0,1,2,0,1.00,'Red',-0.16,default);

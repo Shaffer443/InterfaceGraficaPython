@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Portugal- Primeira Liga
+Farense x Braga
+Operação: Back Mandante
+Odds de Entrada: 1.13
+Minuto da Entrada: 72
+Odds de Saída: 1.03
+Minuto de Saída: 84
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.08
+
+
+insert into input values(default, '2023-09-16', 'Portugal- Primeira Liga','Farense','Braga','Back Mandante',1.13,72,1.03,84,2,0,1,1,1.00,'Green',0.08,default); ok

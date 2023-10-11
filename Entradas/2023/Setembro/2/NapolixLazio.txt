@@ -1,0 +1,36 @@
+
+Data: 2023-09-02
+Torneio: Itália - Série A
+Napoli x Lazio
+Operação: Back Mandante
+Odds de Entrada: 1.64
+Minuto da Entrada: 23
+Odds de Saída: 3.15
+Minuto de Saída: 31
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.51
+
+
+insert into input values(default, '2023-09-02', 'Itália - Série A','Napoli','Lazio','Back Mandante',1.64,23,3.15,31,1,1,0,1,1.00,'Red',-0.51,default);
+
+Data: 2023-09-02
+Torneio: Itália - Série A
+Napoli x Lazio
+Operação: Back Mandante
+Odds de Entrada: 1.86
+Minuto da Entrada: 38
+Odds de Saída: 2.02
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 
+Retorno da Operação (R$ ou $): -0.09
+
+
+insert into input values(default, '2023-09-02', 'Itália - Série A','Napoli','Lazio','Back Mandante',1.86,38,2.02,45,1,1,0,1,1.0,'Red',-0.09,default);

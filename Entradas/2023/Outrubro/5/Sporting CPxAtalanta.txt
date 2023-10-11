@@ -1,0 +1,18 @@
+
+Data: 2023-10-05
+Torneio: UEFA Liga Europa
+Sporting CP x Atalanta
+Operação: Lay Mandante
+Odds de Entrada: 2.65
+Minuto da Entrada: 17
+Odds de Saída: 9.4
+Minuto de Saída: 33
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 2
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.50
+Retorno da Operação (R$ ou $): 0.62
+
+
+insert into input values(default, '2023-10-05', 'UEFA Liga Europa','Sporting CP','Atalanta','Lay Mandante',2.65,17,9.4,33,0,2,1,0,2.50,'Green',0.62,default);

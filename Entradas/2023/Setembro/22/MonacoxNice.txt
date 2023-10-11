@@ -1,0 +1,36 @@
+
+Data: 2023-09-22
+Torneio: França ligue 1
+Monaco x Nice
+Operação: Lay Mandante
+Odds de Entrada: 2.74
+Minuto da Entrada: 31
+Odds de Saída: 2.90
+Minuto de Saída: 43
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.74
+Retorno da Operação (R$ ou $): 0.05
+
+
+insert into input values(default, '2023-09-22', 'França ligue 1','Monaco','Nice','Lay Mandante',2.74,31,2.90,43,0,0,0,1,1.74,'Green',0.05,default);
+
+Data: 2023-09-22
+Torneio: França ligue 1
+Monaco x Nice
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.43
+Minuto da Entrada: 60
+Odds de Saída: 1.90
+Minuto de Saída: 71
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.25
+
+
+insert into input values(default, '2023-09-22', 'França ligue 1','Monaco','Nice','Over 0,5 no 2º tempo',1.43,60,1.90,71,0,0,0,1,1.00,'Red',-0.25,default);

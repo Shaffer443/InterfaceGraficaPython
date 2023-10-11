@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Inglaterra Premier League
+Wolves x Liverpool
+Operação: Over 2,5
+Odds de Entrada: 1.64
+Minuto da Entrada: 39
+Odds de Saída: 1.32
+Minuto de Saída: 55
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 3
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.22
+
+
+insert into input values(default, '2023-09-16', 'Inglaterra Premier League','Wolves','Liverpool','Over 2,5',1.64,39,1.32,55,1,0,0,3,1.00,'Green',0.22,default);

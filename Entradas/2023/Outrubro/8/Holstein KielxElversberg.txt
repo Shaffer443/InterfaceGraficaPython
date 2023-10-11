@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: Bundesliga 2 Alemã
+Holstein Kiel x Elversberg
+Operação: Over 1,5
+Odds de Entrada: 1.33
+Minuto da Entrada: 25
+Odds de Saída: 1.17
+Minuto de Saída: 44
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.28
+
+
+insert into input values(default, '2023-10-08', 'Bundesliga 2 Alemã','Holstein Kiel','Elversberg','Over 1,5',1.33,25,1.17,44,1,0,0,1,2.00,'Green',0.28,default);

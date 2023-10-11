@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Inglaterra Premier League
+Chelsea x Aston Villa
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.49
+Minuto da Entrada: 62
+Odds de Saída: 1.00
+Minuto de Saída: 73
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.49
+
+
+insert into input values(default, '2023-09-24', 'Inglaterra Premier League','Chelsea','Aston Villa','Over 0,5 no 2º tempo',1.49,62,1.00,73,0,0,,1,1.00,'Green',0.49,default);

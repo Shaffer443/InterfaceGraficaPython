@@ -1,0 +1,18 @@
+
+Data: 2023-09-23
+Torneio: Inglaterra Premier League
+Brentford x Everton
+Operação: Back Visitante
+Odds de Entrada: 1.05
+Minuto da Entrada: 73
+Odds de Saída: 1.00
+Minuto de Saída: 97
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 5.00
+Retorno da Operação (R$ ou $): 0.25
+
+
+insert into input values(default, '2023-09-23', 'Inglaterra Premier League','Brentford','Everton','Back Visitante',1.05,73,1.00,97,1,1,0,2,5.00,'Green',0.25,default);

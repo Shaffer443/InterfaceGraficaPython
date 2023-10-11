@@ -1,0 +1,18 @@
+
+Data: 2023-09-17
+Torneio: Espanha La Liga
+Real Madrid x Real Sociedad
+Operação: Lay Visitante
+Odds de Entrada: 1.76
+Minuto da Entrada: 18
+Odds de Saída: 2.44
+Minuto de Saída: 40
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.72
+Retorno da Operação (R$ ou $): -0.13
+
+
+insert into input values(default, '2023-09-17', 'Espanha La Liga','Real Madrid','Real Sociedad','Lay Visitante',1.76,18,2.44,40,0,1,2,0,1.72,'Red',-0.13,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Inglaterra Premier League
+Manchester United x Brighton
+Operação: Back Visitante
+Odds de Entrada: 1.14
+Minuto da Entrada: 69
+Odds de Saída: 1.08
+Minuto de Saída: 80
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.05
+
+
+insert into input values(default, '2023-09-16', 'Inglaterra Premier League','Manchester United','Brighton','Back Visitante',1.14,69,1.08,80,0,1,1,2,1.00,'Green',0.05,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-09-21
+Torneio: Torneio Não Listado
+River Plate x Atl Tucuman
+Operação: Back Mandante
+Odds de Entrada: 1.50
+Minuto da Entrada: 20
+Odds de Saída: 1.62
+Minuto de Saída: 44
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.08
+
+
+insert into input values(default, '2023-09-21', 'Torneio Não Listado','River Plate','Atl Tucuman','Back Mandante',1.50,20,1.62,44,0,0,1,0,1.00,'Red',-0.08,default);

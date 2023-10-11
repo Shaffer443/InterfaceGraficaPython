@@ -1,0 +1,18 @@
+
+Data: 2023-10-10
+Torneio: Brasileiro Série B
+time A x Time B
+Operação: Back Empate
+Odds de Entrada: 1.56
+Minuto da Entrada: 21
+Odds de Saída: 1.45
+Minuto de Saída: 32
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.65
+Retorno da Operação (R$ ou $): 0.80
+
+
+insert into input values(default, '2023-10-10', 'Brasileiro Série B','time A','Time B','Back Empate',1.56,21,1.45,32,1,0,0,0,2.65,'Green',0.80,default);

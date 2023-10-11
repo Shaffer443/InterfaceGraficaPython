@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: Torneio Não Listado
+Lugano x Servette
+Operação: Lay Visitante
+Odds de Entrada: 2.72
+Minuto da Entrada: 14
+Odds de Saída: 3.15
+Minuto de Saída: 28
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 3.44
+Retorno da Operação (R$ ou $): 0.30
+
+
+insert into input values(default, '2023-10-08', 'Torneio Não Listado','Lugano','Servette','Lay Visitante',2.72,14,3.15,28,0,1,0,0,3.44,'Green',0.30,default);

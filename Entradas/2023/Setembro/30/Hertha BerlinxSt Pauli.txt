@@ -1,0 +1,18 @@
+
+Data: 2023-09-30
+Torneio: Bundesliga 2 Alemã
+Hertha Berlin x St Pauli
+Operação: Over 1,5
+Odds de Entrada: 1.38
+Minuto da Entrada: 16
+Odds de Saída: 1.12
+Minuto de Saída: 25
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.26
+
+
+insert into input values(default, '2023-09-30', 'Bundesliga 2 Alemã','Hertha Berlin','St Pauli','Over 1,5',1.38,16,1.12,25,0,1,1,1,1.00,'Green',0.26,default);

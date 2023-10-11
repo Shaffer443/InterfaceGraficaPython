@@ -1,0 +1,18 @@
+
+Data: 2023-10-01
+Torneio: Bundesliga 2 Alemã
+Nurnberg x FC Magdeburg
+Operação: Over 1,5
+Odds de Entrada: 1.40
+Minuto da Entrada: 23
+Odds de Saída: 1.89
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 3.00
+Retorno da Operação (R$ ou $): -0.82
+
+
+insert into input values(default, '2023-10-01', 'Bundesliga 2 Alemã','Nurnberg','FC Magdeburg','Over 1,5',1.40,23,1.89,45,0,0,1,0,3.00,'Red',-0.82,default);

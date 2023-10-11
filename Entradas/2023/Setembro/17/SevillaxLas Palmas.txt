@@ -1,0 +1,18 @@
+
+Data: 2023-09-17
+Torneio: Espanha La Liga
+Sevilla x Las Palmas
+Operação: Back Mandante
+Odds de Entrada: 1.55
+Minuto da Entrada: 11
+Odds de Saída: 1.68
+Minuto de Saída: 22
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.09
+
+
+insert into input values(default, '2023-09-17', 'Espanha La Liga','Sevilla','Las Palmas','Back Mandante',1.55,11,1.68,22,0,0,1,0,1.00,'Red',-0.09,default);

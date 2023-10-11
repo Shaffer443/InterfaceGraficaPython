@@ -1,0 +1,18 @@
+
+Data: 2023-09-20
+Torneio: UEFA Champions League
+Real Sociedad x Inter de Milão
+Operação: Back Visitante
+Odds de Entrada: 2.78
+Minuto da Entrada: 1
+Odds de Saída: 9.99
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.78
+
+
+insert into input values(default, '2023-09-20', 'UEFA Champions League','Real Sociedad','Inter de Milão','Back Visitante',2.78,1,9.99,45,1,0,0,1,1.00,'Red',-0.78,default);

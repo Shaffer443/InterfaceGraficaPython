@@ -1,0 +1,18 @@
+
+Data: 2023-10-10
+Torneio: Brasileiro Série B
+retret x ertert
+Operação: Lay Empate
+Odds de Entrada: 
+Minuto da Entrada: 
+Odds de Saída: 
+Minuto de Saída: 
+Gols Mandante 1 tempo: 
+Gols Visitante 1 tempo: 
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.25
+
+
+insert into input values(default, '2023-10-10', 'Brasileiro Série B','retret','ertert','Lay Empate',,,,,,,,,1.00,'Green',0.25,default);

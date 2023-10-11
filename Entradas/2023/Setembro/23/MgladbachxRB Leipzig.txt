@@ -1,0 +1,18 @@
+
+Data: 2023-09-23
+Torneio: Bundesliga Alemã
+Mgladbach x RB Leipzig
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.47
+Minuto da Entrada: 63
+Odds de Saída: 1.92
+Minuto de Saída: 73
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.25
+
+
+insert into input values(default, '2023-09-23', 'Bundesliga Alemã','Mgladbach','RB Leipzig','Over 0,5 no 2º tempo',1.47,63,1.92,73,0,0,0,1,1.00,'Red',-0.25,default);

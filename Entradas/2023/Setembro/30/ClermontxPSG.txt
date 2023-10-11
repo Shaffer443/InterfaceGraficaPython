@@ -1,0 +1,18 @@
+
+Data: 2023-09-30
+Torneio: França - Ligue 1
+Clermont x PSG
+Operação: Back Visitante
+Odds de Entrada: 1.39
+Minuto da Entrada: 5
+Odds de Saída: 1.54
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.13
+
+
+insert into input values(default, '2023-09-30', 'França - Ligue 1','Clermont','PSG','Back Visitante',1.39,5,1.54,45,0,0,0,0,1.00,'Red',-0.13,default);

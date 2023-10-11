@@ -1,0 +1,18 @@
+
+Data: 2023-10-01
+Torneio: Itália - Série A
+Atalanta x Juventus
+Operação: Lay Visitante
+Odds de Entrada: 3.60
+Minuto da Entrada: 14
+Odds de Saída: 3.70
+Minuto de Saída: 27
+Gols Mandante 1 tempo: 0	
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 4.99
+Retorno da Operação (R$ ou $): 0.03
+
+
+insert into input values(default, '2023-10-01', 'Itália - Série A','Atalanta','Juventus','Lay Visitante',3.60,14,3.70,27,0,0,0,0,4.99,'Green',0.03,default);

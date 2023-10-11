@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Itália - Série A
+Genoa x Napoli
+Operação: Back Mandante
+Odds de Entrada: 1.11
+Minuto da Entrada: 71
+Odds de Saída: 1.52
+Minuto de Saída: 77
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.27
+
+
+insert into input values(default, '2023-09-16', 'Itália - Série A','Genoa','Napoli','Back Mandante',1.11,71,1.52,77,1,0,1,2,1.00,'Red',-0.27,default);

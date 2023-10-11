@@ -1,0 +1,18 @@
+
+Data: 2023-09-22
+Torneio: Liga Profissional da Arábia Saudita
+Al Nassr x Al Ahli
+Operação: Back Mandante
+Odds de Entrada: 1.16
+Minuto da Entrada: 89
+Odds de Saída: 1.05
+Minuto de Saída: 99
+Gols Mandante 1 tempo: 3
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.11
+
+
+insert into input values(default, '2023-09-22', 'Liga Profissional da Arábia Saudita','Al Nassr','Al Ahli','Back Mandante',1.16,89,1.05,99,3,1,1,2,1.00,'Green',0.11,default);

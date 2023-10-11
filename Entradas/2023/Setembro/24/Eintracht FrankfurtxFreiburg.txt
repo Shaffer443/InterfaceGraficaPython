@@ -1,0 +1,18 @@
+
+Data: 2023-09-24
+Torneio: Bundesliga Alemã
+Eintracht Frankfurt x Freiburg
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.59
+Minuto da Entrada: 59
+Odds de Saída: 2.30
+Minuto de Saída: 76
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.60
+
+
+insert into input values(default, '2023-09-24', 'Bundesliga Alemã','Eintracht Frankfurt','Freiburg','Over 0,5 no 2º tempo',1.59,59,2.30,76,0,0,0,0,1.00,'Red',-0.60,default);

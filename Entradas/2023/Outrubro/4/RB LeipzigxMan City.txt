@@ -1,0 +1,18 @@
+
+Data: 2023-10-04
+Torneio: UEFA Champions League
+RB Leipzig x Man City
+Operação: Back Visitante
+Odds de Entrada: 1.68
+Minuto da Entrada: 11
+Odds de Saída: 1.59
+Minuto de Saída: 19
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.09
+
+
+insert into input values(default, '2023-10-04', 'UEFA Champions League','RB Leipzig','Man City','Back Visitante',1.68,11,1.59,19,0,1,1,2,1.00,'Green',0.09,default);

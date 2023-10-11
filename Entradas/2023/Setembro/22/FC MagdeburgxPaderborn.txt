@@ -1,0 +1,18 @@
+
+Data: 2023-09-22
+Torneio: Torneio Não Listado
+FC Magdeburg x Paderborn
+Operação: Over 2,5
+Odds de Entrada: 2.18
+Minuto da Entrada: 31
+Odds de Saída: 1.45
+Minuto de Saída: 35
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.66
+
+
+insert into input values(default, '2023-09-22', 'Torneio Não Listado','FC Magdeburg','Paderborn','Over 2,5',2.18,31,1.45,35,0,1,1,0,2.00,'Green',0.66,default);

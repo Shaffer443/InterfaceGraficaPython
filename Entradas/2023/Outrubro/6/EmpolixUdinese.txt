@@ -1,0 +1,18 @@
+
+Data: 2023-10-06
+Torneio: Itália - Série A
+Empoli x Udinese
+Operação: Under 2,5
+Odds de Entrada: 2.04
+Minuto da Entrada: 1
+Odds de Saída: 1.59
+Minuto de Saída: 23
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.45
+
+
+insert into input values(default, '2023-10-06', 'Itália - Série A','Empoli','Udinese','Under 2,5',2.04,1,1.59,23,0,0,0,0,1.00,'Green',0.45,default);

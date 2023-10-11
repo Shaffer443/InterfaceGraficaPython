@@ -1,0 +1,18 @@
+
+Data: 2023-09-26
+Torneio: Sul Americana
+Corinthians x  Fortaleza EC
+Operação: Under 2,5
+Odds de Entrada: 1.37
+Minuto da Entrada: 12
+Odds de Saída: 1.9
+Minuto de Saída: 22
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): -0.56
+
+
+insert into input values(default, '2023-09-26', 'Sul Americana','Corinthians',' Fortaleza EC','Under 2,5',1.37,12,1.9,22,0,1,0,0,2.00,'Red',-0.56,default);

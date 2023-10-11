@@ -1,0 +1,18 @@
+
+Data: 2023-10-06
+Torneio: Bundesliga Alemã
+Mgladbach x Mainz
+Operação: Under 2,5
+Odds de Entrada: 2.56
+Minuto da Entrada: 1
+Odds de Saída: 2.08
+Minuto de Saída: 14
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.22
+
+
+insert into input values(default, '2023-10-06', 'Bundesliga Alemã','Mgladbach','Mainz','Under 2,5',2.56,1,2.08,14,1,1,1,1,1.00,'Green',0.22,default);

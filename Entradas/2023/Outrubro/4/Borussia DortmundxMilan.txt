@@ -1,0 +1,18 @@
+
+Data: 2023-10-04
+Torneio: UEFA Champions League
+Borussia Dortmund x Milan
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.57
+Minuto da Entrada: 61
+Odds de Saída: 2.26
+Minuto de Saída: 76
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.30
+
+
+insert into input values(default, '2023-10-04', 'UEFA Champions League','Borussia Dortmund','Milan','Over 0,5 no 2º tempo',1.57,61,2.26,76,0,0,0,0,1.00,'Red',-0.30,default);

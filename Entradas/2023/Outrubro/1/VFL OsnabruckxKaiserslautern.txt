@@ -1,0 +1,18 @@
+
+Data: 2023-10-01
+Torneio: Bundesliga 2 Alemã
+VFL Osnabruck x Kaiserslautern
+Operação: Over 1,5
+Odds de Entrada: 1.35
+Minuto da Entrada: 15
+Odds de Saída: 1.09
+Minuto de Saída: 17
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.47
+
+
+insert into input values(default, '2023-10-01', 'Bundesliga 2 Alemã','VFL Osnabruck','Kaiserslautern','Over 1,5',1.35,15,1.09,17,2,1,0,1,2.00,'Green',0.47,default);

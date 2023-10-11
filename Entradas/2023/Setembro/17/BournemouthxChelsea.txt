@@ -1,0 +1,18 @@
+
+Data: 2023-09-17
+Torneio: Inglaterra Premier League
+Bournemouth x Chelsea
+Operação: Under 2,5
+Odds de Entrada: 2.04
+Minuto da Entrada: 9
+Odds de Saída: 1.96
+Minuto de Saída: 13
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.04
+
+
+insert into input values(default, '2023-09-17', 'Inglaterra Premier League','Bournemouth','Chelsea','Under 2,5',2.04,9,1.96,13,0,0,0,0,1.00,'Green',0.04,default);

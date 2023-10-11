@@ -1,0 +1,18 @@
+
+Data: 2023-09-30
+Torneio: Inglaterra Premier League
+Wolves x Manchester City
+Operação: Back Visitante
+Odds de Entrada: 1.92
+Minuto da Entrada: 25
+Odds de Saída: 2.66
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): -0.56
+
+
+insert into input values(default, '2023-09-30', 'Inglaterra Premier League','Wolves','Manchester City','Back Visitante',1.92,25,2.66,45,1,0,1,1,2.00,'Red',-0.56,default);

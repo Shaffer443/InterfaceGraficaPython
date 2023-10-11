@@ -1,0 +1,18 @@
+
+Data: 2023-09-28
+Torneio: Itália - Série A
+Genoa x Roma
+Operação: Back Mandante
+Odds de Entrada: 1.06
+Minuto da Entrada: 77
+Odds de Saída: 1.01
+Minuto de Saída: 81
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.50
+Retorno da Operação (R$ ou $): 0.12
+
+
+insert into input values(default, '2023-09-28', 'Itália - Série A','Genoa','Roma','Back Mandante',1.06,77,1.01,81,2,1,2,0,2.50,'Green',0.12,default);

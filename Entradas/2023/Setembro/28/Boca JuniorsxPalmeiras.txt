@@ -1,0 +1,36 @@
+
+Data: 2023-09-28
+Torneio: CONMEBOL Libertadores
+Boca Juniors x Palmeiras
+Operação: Back Visitante
+Odds de Entrada: 2.96
+Minuto da Entrada: 1
+Odds de Saída: 4.6
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.37
+
+
+insert into input values(default, '2023-09-28', 'CONMEBOL Libertadores','Boca Juniors','Palmeiras','Back Visitante',2.96,1,4.6,45,0,0,0,0,1.00,'Red',-0.37,default);
+
+Data: 2023-09-28
+Torneio: CONMEBOL Libertadores
+Boca Juniors x Palmeiras
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.77
+Minuto da Entrada: 57
+Odds de Saída: 2.44
+Minuto de Saída: 70
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): -0.56
+
+
+insert into input values(default, '2023-09-28', 'CONMEBOL Libertadores','Boca Juniors','Palmeiras','Over 0,5 no 2º tempo',1.77,57,2.44,70,0,0,0,0,2.00,'Red',-0.56,default);

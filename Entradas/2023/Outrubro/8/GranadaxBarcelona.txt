@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: Espanha - La Liga
+Granada x Barcelona
+Operação: Lay Mandante
+Odds de Entrada: 3.9
+Minuto da Entrada: 12
+Odds de Saída: 2.00
+Minuto de Saída: 28
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 5.80
+Retorno da Operação (R$ ou $): -1.90
+
+
+insert into input values(default, '2023-10-08', 'Espanha - La Liga','Granada','Barcelona','Lay Mandante',3.9,12,2.00,28,2,1,0,1,5.80,'Red',-1.90,default);

@@ -1,0 +1,18 @@
+
+Data: 2023-09-14
+Torneio: Brasileiro Série A
+Bragantino x Grêmio
+Operação: Over 2,5
+Odds de Entrada: 1.80
+Minuto da Entrada: 32
+Odds de Saída: 1.32
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.32
+
+
+insert into input values(default, '2023-09-14', 'Brasileiro Série A','Bragantino','Grêmio','Over 2,5',1.80,32,1.32,45,2,0,0,0,1.00,'Green',0.32,default);

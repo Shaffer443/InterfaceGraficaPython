@@ -1,0 +1,18 @@
+
+Data: 2023-09-03
+Torneio: Espanha La Liga
+Osasuna x Barcelona
+Operação: Over 1,5
+Odds de Entrada: 1.81
+Minuto da Entrada: 36
+Odds de Saída: 1.32
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.36
+
+
+insert into input values(default, '2023-09-03', 'Espanha La Liga','Osasuna','Barcelona','Over 1,5',1.81,36,1.32,45,0,1,1,1,1.00,'Green',0.36,default);

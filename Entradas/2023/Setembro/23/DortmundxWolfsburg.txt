@@ -1,0 +1,36 @@
+
+Data: 2023-09-23
+Torneio: Bundesliga Alemã
+Dortmund x Wolfsburg
+Operação: Over 1,5
+Odds de Entrada: 1.57
+Minuto da Entrada: 37
+Odds de Saída: 1.79
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.13
+
+
+insert into input values(default, '2023-09-23', 'Bundesliga Alemã','Dortmund','Wolfsburg','Over 1,5',1.57,37,1.79,45,0,0,1,0,1.00,'Red',-0.13,default);
+
+Data: 2023-09-23
+Torneio: Bundesliga Alemã
+Dortmund x Wolfsburg
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.45
+Minuto da Entrada: 66
+Odds de Saída: 1.00
+Minuto de Saída: 69
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo:0 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.45
+
+
+insert into input values(default, '2023-09-23', 'Bundesliga Alemã','Dortmund','Wolfsburg','Over 0,5 no 2º tempo',1.45,66,1.00,69,0,0,1,0,1.00,'Green',0.45,default);

@@ -1,0 +1,35 @@
+
+Data: 2023-09-16
+Torneio: Inglaterra Premier League
+Tottenham x Sheff Utd
+Operação: Over 1,5
+Odds de Entrada: 1.74
+Minuto da Entrada: 50
+Odds de Saída: 2.62
+Minuto de Saída: 67
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.35
+
+
+insert into input values(default, '2023-09-16', 'Inglaterra Premier League','Tottenham','Sheff Utd','Over 1,5',1.74,50,2.62,67,0,0,2,1,1.00,'Red',-0.35,default);
+Data: 2023-09-16
+Torneio: Inglaterra Premier League
+Tottenham x Sheff Utd
+Operação: Back Visitante
+Odds de Entrada: 1.43
+Minuto da Entrada: 89
+Odds de Saída: 1.27
+Minuto de Saída: 95
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.11
+
+
+insert into input values(default, '2023-09-16', 'Inglaterra Premier League','Tottenham','Sheff Utd','Back Visitante',1.43,89,1.27,95,0,0,2,1,1.00,'Green',0.11,default);

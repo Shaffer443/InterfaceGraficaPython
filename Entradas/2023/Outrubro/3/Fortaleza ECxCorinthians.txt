@@ -1,0 +1,18 @@
+
+Data: 2023-10-03
+Torneio: CONMEBOL Sudamericana
+Fortaleza EC x Corinthians
+Operação: Over 1,5
+Odds de Entrada: 2.12
+Minuto da Entrada: 37
+Odds de Saída: 2.60
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.48
+
+
+insert into input values(default, '2023-10-03', 'CONMEBOL Sudamericana','Fortaleza EC','Corinthians','Over 1,5',2.12,37,2.60,45,0,0,2,0,1.00,'Red',-0.48,default);

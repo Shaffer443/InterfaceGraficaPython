@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Bundesliga Alemã
+Bochum x Eintracht Frankfurt
+Operação: Over 1,5
+Odds de Entrada: 2.16
+Minuto da Entrada: 46
+Odds de Saída: 1.43
+Minuto de Saída: 56
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.48
+
+
+insert into input values(default, '2023-09-16', 'Bundesliga Alemã','Bochum','Eintracht Frankfurt','Over 1,5',2.16,46,1.43,56,0,0,1,1,1.00,'Green',0.48,default); ok

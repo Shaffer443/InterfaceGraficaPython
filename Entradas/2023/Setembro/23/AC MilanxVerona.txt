@@ -1,0 +1,18 @@
+
+Data: 2023-09-23
+Torneio: Itália - Série A
+AC Milan x Verona
+Operação: Back Mandante
+Odds de Entrada: 1.12
+Minuto da Entrada: 80
+Odds de Saída: 1.05
+Minuto de Saída: 91
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.07
+
+
+insert into input values(default, '2023-09-23', 'Itália - Série A','AC Milan','Verona','Back Mandante',1.12,80,1.05,91,1,0,0,0,1.00,'Green',0.07,default);

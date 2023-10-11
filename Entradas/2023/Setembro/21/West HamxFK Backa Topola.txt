@@ -1,0 +1,36 @@
+
+Data: 2023-09-21
+Torneio: UEFA Europa Conference League
+West Ham x FK Backa Topola
+Operação: Over 2,5
+Odds de Entrada: 1.88
+Minuto da Entrada: 32
+Odds de Saída: 2.84
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.34
+
+
+insert into input values(default, '2023-09-21', 'UEFA Europa Conference League','West Ham','FK Backa Topola','Over 2,5',1.88,32,2.84,45,0,0,3,1,1.00,'Red',-0.34,default);
+
+Data: 2023-09-21
+Torneio: UEFA Liga Europa
+West Ham x FK Backa Topola
+Operação: Back Mandante
+Odds de Entrada: 1.07
+Minuto da Entrada: 70
+Odds de Saída: 1.00
+Minuto de Saída: 90
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 5.00
+Retorno da Operação (R$ ou $): 0.35
+
+
+insert into input values(default, '2023-09-21', 'UEFA Liga Europa','West Ham','FK Backa Topola','Back Mandante',1.07,70,1.00,90,0,0,3,1,5.00,'Green',0.35,default);

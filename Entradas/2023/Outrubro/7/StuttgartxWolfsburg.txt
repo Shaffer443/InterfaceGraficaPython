@@ -1,0 +1,18 @@
+
+Data: 2023-10-07
+Torneio: Bundesliga Alemã
+Stuttgart x Wolfsburg
+Operação: Back Mandante
+Odds de Entrada: 1.20
+Minuto da Entrada: 80
+Odds de Saída: 1.00
+Minuto de Saída: 90
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.20
+
+
+insert into input values(default, '2023-10-07', 'Bundesliga Alemã','Stuttgart','Wolfsburg','Back Mandante',1.20,80,1.00,90,0,1,3,0,1.00,'Green',0.20,default);

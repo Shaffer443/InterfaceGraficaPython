@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: Bundesliga 2 Alemã
+Schalke 04 x Hertha Berlin
+Operação: Over 1,5
+Odds de Entrada: 1.29
+Minuto da Entrada: 17
+Odds de Saída: 1.14
+Minuto de Saída: 41
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 1
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.25
+
+
+insert into input values(default, '2023-10-08', 'Bundesliga 2 Alemã','Schalke 04','Hertha Berlin','Over 1,5',1.29,17,1.14,41,0,1,1,1,2.00,'Green',0.25,default);

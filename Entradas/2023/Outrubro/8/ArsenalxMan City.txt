@@ -1,0 +1,18 @@
+
+Data: 2023-10-08
+Torneio: UEFA Champions League
+Arsenal x Man City
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.42
+Minuto da Entrada: 50
+Odds de Saída: 1.82
+Minuto de Saída: 65
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.22
+
+
+insert into input values(default, '2023-10-08', 'UEFA Champions League','Arsenal','Man City','Over 0,5 no 2º tempo',1.42,50,1.82,65,0,0,1,0,1.00,'Red',-0.22,default);

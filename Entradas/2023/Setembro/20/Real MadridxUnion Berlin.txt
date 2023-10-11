@@ -1,0 +1,18 @@
+
+Data: 2023-09-20
+Torneio: UEFA Champions League
+Real Madrid x Union Berlin
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.26
+Minuto da Entrada: 52
+Odds de Saída: 1.54
+Minuto de Saída: 65
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.18
+
+
+insert into input values(default, '2023-09-20', 'UEFA Champions League','Real Madrid','Union Berlin','Over 0,5 no 2º tempo',1.26,52,1.54,65,0,0,1,0,1.00,'Red',-0.18,default);

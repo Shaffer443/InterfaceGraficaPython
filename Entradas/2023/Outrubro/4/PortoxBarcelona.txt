@@ -1,0 +1,18 @@
+
+Data: 2023-10-04
+Torneio: UEFA Champions League
+Porto x Barcelona
+Operação: Lay Empate
+Odds de Entrada: 3.20
+Minuto da Entrada: 30
+Odds de Saída: 4.7
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 2.40
+Retorno da Operação (R$ ou $): 0.35
+
+
+insert into input values(default, '2023-10-04', 'UEFA Champions League','Porto','Barcelona','Lay Empate',3.20,30,4.7,45,0,1,0,0,2.40,'Green',0.35,default);

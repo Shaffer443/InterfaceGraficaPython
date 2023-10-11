@@ -1,0 +1,18 @@
+
+Data: 2023-09-02
+Torneio: Bundesliga Alemã
+Hoffenheim x Wolfsburg
+Operação: Over 2,5
+Odds de Entrada: 1.97
+Minuto da Entrada: 23
+Odds de Saída: 1.53 
+Minuto de Saída: 36
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.25
+
+
+insert into input values(default, '2023-09-02', 'Bundesliga Alemã','Hoffenheim','Wolfsburg','Over 2,5',1.97,23,1.53,36,1,1,2,0,1.00,'Green',0.25,default);

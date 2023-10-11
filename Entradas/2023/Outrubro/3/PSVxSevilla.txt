@@ -1,0 +1,37 @@
+
+Data: 2023-10-03
+Torneio: UEFA Champions League
+PSV x Sevilla
+Operação: Back Mandante
+Odds de Entrada: 1.99
+Minuto da Entrada: 15
+Odds de Saída: 2.18
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.09
+
+
+insert into input values(default, '2023-10-03', 'UEFA Champions League','PSV','Sevilla','Back Mandante',1.99,15,2.18,45,0,0,2,2,1.00,'Red',-0.09,default);
+
+
+Data: 2023-10-03
+Torneio: UEFA Champions League
+PSV x Sevilla
+Operação: Over 0,5 no 2º tempo
+Odds de Entrada: 1.44
+Minuto da Entrada: 56
+Odds de Saída: 2.02
+Minuto de Saída: 66
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 2
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.29
+
+
+insert into input values(default, '2023-10-03', 'UEFA Champions League','PSV','Sevilla','Over 0,5 no 2º tempo',1.44,56,2.02,66,0,0,2,2,1.00,'Red',-0.29,default);

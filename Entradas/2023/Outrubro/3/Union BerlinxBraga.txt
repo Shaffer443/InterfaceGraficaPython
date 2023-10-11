@@ -1,0 +1,18 @@
+
+Data: 2023-10-03
+Torneio: UEFA Champions League
+Union Berlin x Braga
+Operação: Lay Mandante
+Odds de Entrada: 2.82
+Minuto da Entrada: 53
+Odds de Saída: 3.60
+Minuto de Saída: 69
+Gols Mandante 1 tempo: 2
+Gols Visitante 1 tempo: 1
+Gols Mandante 2 tempo: 0
+Gols Visitante 2 tempo: 2
+Valor da Operação (R$ ou $): 2.00
+Retorno da Operação (R$ ou $): 0.24
+
+
+insert into input values(default, '2023-10-03', 'UEFA Champions League','Union Berlin','Braga','Lay Mandante',2.82,53,3.60,69,2,1,0,2,2.00,'Green',0.24,default);

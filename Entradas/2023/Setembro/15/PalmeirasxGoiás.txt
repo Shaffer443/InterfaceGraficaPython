@@ -1,0 +1,36 @@
+
+Data: 2023-09-15
+Torneio: Brasileiro Série A
+Palmeiras x Goiás
+Operação: Over 1,5
+Odds de Entrada: 1.70
+Minuto da Entrada: 31
+Odds de Saída: 2.24
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.24
+
+
+insert into input values(default, '2023-09-15', 'Brasileiro Série A','Palmeiras','Goiás','Over 1,5',1.70,31,2.24,45,0,0,1,0,1.00,'Red',-0.24,default);
+
+Data: 2023-09-15
+Torneio: Brasileiro Série A
+Palmeiras x Goiás
+Operação: Back Mandante
+Odds de Entrada: 1.62
+Minuto da Entrada: 46
+Odds de Saída: 2.06
+Minuto de Saída: 68
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 1
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.21
+
+
+insert into input values(default, '2023-09-15', 'Brasileiro Série A','Palmeiras','Goiás','Back Mandante',1.62,46,2.06,68,0,0,1,0,1.00,'Red',-0.21,default);

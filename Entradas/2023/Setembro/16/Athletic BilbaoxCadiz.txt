@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Espanha La Liga
+Athletic Bilbao x Cadiz
+Operação: Over 1,5
+Odds de Entrada: 1.91
+Minuto da Entrada: 28
+Odds de Saída: 2.82
+Minuto de Saída: 45
+Gols Mandante 1 tempo: 0
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 3
+Gols Visitante 2 tempo: 0
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): -0.32
+
+
+insert into input values(default, '2023-09-16', 'Espanha La Liga','Athletic Bilbao','Cadiz','Over 1,5',1.91,28,2.82,45,0,0,3,0,1.00,'Red',-0.32,default);

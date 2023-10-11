@@ -1,0 +1,18 @@
+
+Data: 2023-09-16
+Torneio: Inglaterra Premier League
+West Ham x Manchester City
+Operação: Back Mandante
+Odds de Entrada: 7.00
+Minuto da Entrada: 15
+Odds de Saída: 2.56
+Minuto de Saída: 36
+Gols Mandante 1 tempo: 1
+Gols Visitante 1 tempo: 0
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo:3 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 0.46
+
+
+insert into input values(default, '2023-09-16', 'Inglaterra Premier League','West Ham','Manchester City','Back Mandante',7.00,15,2.56,36,1,0,0,3,1.00,'Green',0.46,default);

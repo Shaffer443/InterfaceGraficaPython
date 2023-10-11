@@ -1,0 +1,17 @@
+
+Data: 2023-09-23
+Torneio: Bundesliga Alemã
+Union Berlin x Hoffenheim
+Operação: Back Mandante
+Odds de Entrada: 
+Minuto da Entrada: 
+Odds de Saída: 
+Minuto de Saída: 
+Gols Mandante 1 tempo: 
+Gols Visitante 1 tempo: 
+Gols Mandante 2 tempo: 
+Gols Visitante 2 tempo: 
+Valor da Operação (R$ ou $): 1.00
+Retorno da Operação (R$ ou $): 
+
+
